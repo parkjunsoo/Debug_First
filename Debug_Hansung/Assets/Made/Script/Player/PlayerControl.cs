@@ -19,34 +19,29 @@ public class PlayerControl : MonoBehaviour {
 
     private float verticalVelocity = 0f;
 
-    Vector3 playerYAngle;
+    //Vector3 playerYAngle;
 
     private CharacterController cc;
-
-    static int msgCount;                   //획득한 쪽지 개수를 세기 위한 변수
 
     //-------------------------------------------
     //각 아이템을 얻었는지 판단하는 부울 변수들 모음
     public bool getKnife;
     public bool getKey;
     public bool getCutter;
-    static bool isInit;             //게임이 시작되고 씬 전환이 한번도 되지 않았는지를 판단. 처음에는 false로 하고 화장실을 들어가는 순간 true로 할 예정
+    public bool getBattery;
     //-------------------------------------------
-
+    //라이팅 관련
+    Light InnerLight;
+    Light OuterLight;
+    LEDControl LEDCtrl;
+    //-------------------------------------------
     static string startPosition = "InitPosition";            //씬이 로드될 때 시작하는 위치를 String으로 저장
+
+    static int msgCount;                   //획득한 쪽지 개수를 세기 위한 변수
 
     public void SetStartPosition(string pos)
     {
         startPosition = pos;
-    }
-
-    public bool GetisInit(){
-        return isInit;
-    }
-
-    public void Init()
-    {
-        isInit = true;              //화장실에 들어가고 난 후 true. true인 경우 처음 게임 시작 위치 뒤쪽에 있는 collider를 제거
     }
 
     public int GetMsgCount()
@@ -62,17 +57,26 @@ public class PlayerControl : MonoBehaviour {
     // Use this for initialization
     void Start()
     {
-        transform.position = GameObject.Find(startPosition).transform.position;
+        DontDestroyOnLoad(this);
         cc = GetComponent<CharacterController>();
         Cursor.lockState = CursorLockMode.Locked;
+
+        InnerLight = GameObject.Find("InnerLED").GetComponent<Light>();
+        OuterLight = GameObject.Find("OuterLED").GetComponent<Light>();
+        LEDCtrl = GetComponent<LEDControl>();
+
+        //씬에서 로드될 때의 위치와 바라보는 방향 설정
+        transform.position = GameObject.Find(startPosition).transform.position;
+        transform.Rotate(GameObject.Find(startPosition).transform.rotation.eulerAngles);
     }
 
     // Update is called once per frame
     void Update()
     {
-        playerYAngle = new Vector3(0f, Camera.main.transform.rotation.eulerAngles.y, 0f);
+        //playerYAngle = new Vector3(0f, Camera.main.transform.rotation.eulerAngles.y, 0f);
         FPMove();
         FPRotate();           //HMD 없이 돌려볼 때에는 주석을 해제하고 할것
+        LEDOnOff();
     }
 
     //Player의 x축, z축 움직임을 담당
@@ -103,4 +107,19 @@ public class PlayerControl : MonoBehaviour {
         Camera.main.transform.localRotation = Quaternion.Euler(verticalRotation, 0f, 0f);
     }
     
+    void LEDOnOff()             //손전등
+    {
+        if (Input.GetKeyDown(KeyCode.E))
+        {
+            if (!getBattery && !InnerLight.enabled && !OuterLight.enabled)      //배터리를 얻지 않은 경우, 켤 때.
+            {
+                LEDCtrl.LowBatt();
+            }
+            else                            //그 외에는 그냥 껐다 켰다
+            {
+                InnerLight.enabled = !InnerLight.enabled;
+                OuterLight.enabled = !OuterLight.enabled;
+            }
+        }
+    }
 }

@@ -239,11 +239,14 @@
     <Compile Include="Assets\Assets\Plugins\Pixelplacement\iTween\Sample\SampleInfo.cs" />
     <Compile Include="Assets\Made\Script\Management\FadeManager.cs" />
     <Compile Include="Assets\Made\Script\Management\FirstFloorManager.cs" />
+    <Compile Include="Assets\Made\Script\Management\OfficeManager.cs" />
     <Compile Include="Assets\Made\Script\Player\LEDControl.cs" />
     <Compile Include="Assets\Made\Script\Player\PlayerControl.cs" />
+    <Compile Include="Assets\Made\Script\Thunder\ThunderLight.cs" />
     <Compile Include="Assets\Made\Script\Trigger\IntoOffice.cs" />
     <Compile Include="Assets\Made\Script\Trigger\IntoToilet.cs" />
     <Compile Include="Assets\Made\Script\Trigger\SceneChange.cs" />
+    <Compile Include="Assets\Made\Script\Trigger\ThunderTrigger.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\Assets\OSPNative\LICENSE.txt" />

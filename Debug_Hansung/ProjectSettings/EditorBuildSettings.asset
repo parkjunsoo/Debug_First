@@ -11,3 +11,6 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Made/Scene/Toilet.unity
     guid: 8e6827f2d67129e41bf49834716e52a7
+  - enabled: 1
+    path: Assets/Made/Scene/Office.unity
+    guid: c23188065c964c5478c264ff96c5cafd
