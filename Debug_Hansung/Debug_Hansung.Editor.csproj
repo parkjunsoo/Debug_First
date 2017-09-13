@@ -155,6 +155,8 @@
     <None Include="Assets\Assets\OVR\THIRD_PARTY_NOTICES.txt" />
     <None Include="Assets\Assets\OculusPlatform\LICENSE.txt" />
     <None Include="Assets\Assets\OculusPlatform\THIRD_PARTY_NOTICES.txt" />
+    <None Include="Assets\Assets\OutlineEffect\Resources\OutlineBufferShader.shader" />
+    <None Include="Assets\Assets\OutlineEffect\Resources\OutlineShader.shader" />
     <None Include="Assets\Assets\OvrAvatar\Content\Materials\AvatarMaterialStateShader.cginc" />
     <None Include="Assets\Assets\OvrAvatar\Content\Materials\AvatarSurfaceShader.shader" />
     <None Include="Assets\Assets\OvrAvatar\Content\Materials\AvatarSurfaceShaderPBS.shader" />

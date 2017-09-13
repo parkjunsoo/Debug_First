@@ -7,8 +7,8 @@ public class LEDControl : MonoBehaviour {
     public Light InnerLED;
     public Light OuterLED;
 
-    float inner = 0.7f;
-    float outer = 1.0f;
+    public float inner = 0.7f;
+    public float outer = 1.0f;
 
     float innerIntensity;
     float outerIntensity;

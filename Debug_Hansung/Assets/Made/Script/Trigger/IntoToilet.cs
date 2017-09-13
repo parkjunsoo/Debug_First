@@ -7,7 +7,7 @@ public class IntoToilet : SceneChange {
 	// Use this for initialization
 	void Start () {
         changeSceneName = "Toilet";
-        startPos = "ToiletInitPosition";
+        canChangeScene = true;
+        //startPos = "ToiletInitPosition";
 	}
-	
 }

@@ -176,6 +176,13 @@
     <Compile Include="Assets\Assets\OSPNative\scripts\ONSPAmbisonicsNative.cs" />
     <Compile Include="Assets\Assets\OSPNative\scripts\ONSPAudioSource.cs" />
     <Compile Include="Assets\Assets\OSPNative\scripts\ONSPVersion.cs" />
+    <Compile Include="Assets\Assets\OutlineEffect\Demo\MaterialSwitcher.cs" />
+    <Compile Include="Assets\Assets\OutlineEffect\Demo\OutlineAnimation.cs" />
+    <Compile Include="Assets\Assets\OutlineEffect\Demo\Rotate.cs" />
+    <Compile Include="Assets\Assets\OutlineEffect\Demo\Toggle.cs" />
+    <Compile Include="Assets\Assets\OutlineEffect\LinkedSet.cs" />
+    <Compile Include="Assets\Assets\OutlineEffect\Outline.cs" />
+    <Compile Include="Assets\Assets\OutlineEffect\OutlineEffect.cs" />
     <Compile Include="Assets\Assets\OVR\Scripts\OVRBoundary.cs" />
     <Compile Include="Assets\Assets\OVR\Scripts\OVRCameraRig.cs" />
     <Compile Include="Assets\Assets\OVR\Scripts\OVRCommon.cs" />
@@ -239,10 +246,14 @@
     <Compile Include="Assets\Assets\Plugins\Pixelplacement\iTween\Sample\SampleInfo.cs" />
     <Compile Include="Assets\Made\Script\Management\FadeManager.cs" />
     <Compile Include="Assets\Made\Script\Management\FirstFloorManager.cs" />
+    <Compile Include="Assets\Made\Script\Management\IntroManager.cs" />
     <Compile Include="Assets\Made\Script\Management\OfficeManager.cs" />
+    <Compile Include="Assets\Made\Script\Management\ToiletManager.cs" />
+    <Compile Include="Assets\Made\Script\Objects\Message.cs" />
     <Compile Include="Assets\Made\Script\Player\LEDControl.cs" />
     <Compile Include="Assets\Made\Script\Player\PlayerControl.cs" />
     <Compile Include="Assets\Made\Script\Thunder\ThunderLight.cs" />
+    <Compile Include="Assets\Made\Script\Trigger\ExitToilet.cs" />
     <Compile Include="Assets\Made\Script\Trigger\IntoOffice.cs" />
     <Compile Include="Assets\Made\Script\Trigger\IntoToilet.cs" />
     <Compile Include="Assets\Made\Script\Trigger\SceneChange.cs" />
@@ -262,6 +273,8 @@
     <None Include="Assets\Assets\OVR\THIRD_PARTY_NOTICES.txt" />
     <None Include="Assets\Assets\OculusPlatform\LICENSE.txt" />
     <None Include="Assets\Assets\OculusPlatform\THIRD_PARTY_NOTICES.txt" />
+    <None Include="Assets\Assets\OutlineEffect\Resources\OutlineBufferShader.shader" />
+    <None Include="Assets\Assets\OutlineEffect\Resources\OutlineShader.shader" />
     <None Include="Assets\Assets\OvrAvatar\Content\Materials\AvatarMaterialStateShader.cginc" />
     <None Include="Assets\Assets\OvrAvatar\Content\Materials\AvatarSurfaceShader.shader" />
     <None Include="Assets\Assets\OvrAvatar\Content\Materials\AvatarSurfaceShaderPBS.shader" />

@@ -24,6 +24,14 @@ public class PlayerControl : MonoBehaviour {
     private CharacterController cc;
 
     //-------------------------------------------
+    int layerMask;
+    LineRenderer line;
+    Ray ray = new Ray();
+    RaycastHit hit;
+    public Transform lineStart;
+    float timer = 0f;
+    
+    //-------------------------------------------
     //각 아이템을 얻었는지 판단하는 부울 변수들 모음
     public bool getKnife;
     public bool getKey;
@@ -66,8 +74,8 @@ public class PlayerControl : MonoBehaviour {
         LEDCtrl = GetComponent<LEDControl>();
 
         //씬에서 로드될 때의 위치와 바라보는 방향 설정
-        transform.position = GameObject.Find(startPosition).transform.position;
-        transform.Rotate(GameObject.Find(startPosition).transform.rotation.eulerAngles);
+        //transform.position = GameObject.Find(startPosition).transform.position;
+        //transform.Rotate(GameObject.Find(startPosition).transform.rotation.eulerAngles);
     }
 
     // Update is called once per frame
@@ -77,6 +85,12 @@ public class PlayerControl : MonoBehaviour {
         FPMove();
         FPRotate();           //HMD 없이 돌려볼 때에는 주석을 해제하고 할것
         LEDOnOff();
+        if (Input.GetKeyDown(KeyCode.R))
+        {
+            getBattery = true;
+            InnerLight.intensity = GetComponent<LEDControl>().inner;
+            OuterLight.intensity = GetComponent<LEDControl>().outer;
+        }
     }
 
     //Player의 x축, z축 움직임을 담당
@@ -122,4 +136,13 @@ public class PlayerControl : MonoBehaviour {
             }
         }
     }
+
+    void Pickup()
+    {
+
+    }
+
+
+
+
 }
