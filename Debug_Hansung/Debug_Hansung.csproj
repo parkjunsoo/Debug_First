@@ -249,6 +249,7 @@
     <Compile Include="Assets\Made\Script\Management\IntroManager.cs" />
     <Compile Include="Assets\Made\Script\Management\OfficeManager.cs" />
     <Compile Include="Assets\Made\Script\Management\StageManager.cs" />
+    <Compile Include="Assets\Made\Script\Management\ThirdFloorManager.cs" />
     <Compile Include="Assets\Made\Script\Management\ToiletManager.cs" />
     <Compile Include="Assets\Made\Script\Objects\Message.cs" />
     <Compile Include="Assets\Made\Script\Player\LEDControl.cs" />

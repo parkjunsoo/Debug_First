@@ -8,5 +8,11 @@ public class ExitToilet : SceneChange {
 	void Start () {
         changeSceneName = "FirstFloor";
 	}
-	
+
+    private void FixedUpdate()
+    {
+        if (player.GetMsgCount() == 1)
+            canChangeScene = true;
+    }
+
 }

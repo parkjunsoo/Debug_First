@@ -3,13 +3,10 @@ using System.Collections.Generic;
 using UnityEngine;
 
 public class Message : MonoBehaviour {
-
-    GameObject player;
-
+    
 	// Use this for initialization
 	void Start () {
         GetComponent<cakeslice.Outline>().enabled = false;
-        player = GameObject.Find("Player");
 	}
 	
 	// Update is called once per frame
@@ -27,10 +24,9 @@ public class Message : MonoBehaviour {
 
     private void OnTriggerStay(Collider other)
     {
-        if (Input.GetKeyDown(KeyCode.Q))
+        if (other.name.Contains("Player") && Input.GetKeyDown(KeyCode.Q))
         {
-            player.GetComponent<PlayerControl>().AddCount();
-            GameObject.Find("ExitToilet").GetComponent<ExitToilet>().canChangeScene = true;
+            other.GetComponent<PlayerControl>().AddCount();                 //player.GetComponent ~~~로 했더니 잘 되다가 갑자기 에러나서 바꿈. 뭐여 씨벌
             Destroy(this.gameObject);
         }
     }

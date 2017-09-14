@@ -64,6 +64,7 @@ public class PlayerControl : MonoBehaviour {
     public void AddCount()                  //쪽지를 획득할 경우 msgCount를 증가시킴
     {
         msgCount++;
+        Debug.Log(msgCount);
     }
     
     // Use this for initialization

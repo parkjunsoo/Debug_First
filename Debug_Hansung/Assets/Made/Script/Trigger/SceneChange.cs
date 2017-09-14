@@ -39,4 +39,9 @@ public class SceneChange : MonoBehaviour {
         }
         //player.SetStartPosition(startPos);
     }    
+    
+    public void CanChangeScene()
+    {
+        canChangeScene = true;
+    }
 }
