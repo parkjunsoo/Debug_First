@@ -20,7 +20,9 @@ public class ThunderTrigger : MonoBehaviour {
 
     private void OnTriggerEnter(Collider other)
     {
-        thunder.GetComponent<ThunderLight>().Thunder();
+        //thunder.GetComponent<ThunderLight>().Thunder();
+        //player.getKey = true;
+        //player.getKnife = true;
         if (player.getKey && player.getKnife)
         {
             thunder.GetComponent<ThunderLight>().Thunder();

@@ -248,14 +248,18 @@
     <Compile Include="Assets\Made\Script\Management\FirstFloorManager.cs" />
     <Compile Include="Assets\Made\Script\Management\IntroManager.cs" />
     <Compile Include="Assets\Made\Script\Management\OfficeManager.cs" />
+    <Compile Include="Assets\Made\Script\Management\StageManager.cs" />
     <Compile Include="Assets\Made\Script\Management\ToiletManager.cs" />
     <Compile Include="Assets\Made\Script\Objects\Message.cs" />
     <Compile Include="Assets\Made\Script\Player\LEDControl.cs" />
     <Compile Include="Assets\Made\Script\Player\PlayerControl.cs" />
     <Compile Include="Assets\Made\Script\Thunder\ThunderLight.cs" />
+    <Compile Include="Assets\Made\Script\Trigger\ExitOffice.cs" />
     <Compile Include="Assets\Made\Script\Trigger\ExitToilet.cs" />
     <Compile Include="Assets\Made\Script\Trigger\IntoOffice.cs" />
+    <Compile Include="Assets\Made\Script\Trigger\IntoSecondFloor.cs" />
     <Compile Include="Assets\Made\Script\Trigger\IntoToilet.cs" />
+    <Compile Include="Assets\Made\Script\Trigger\IntSecondFloor.cs" />
     <Compile Include="Assets\Made\Script\Trigger\SceneChange.cs" />
     <Compile Include="Assets\Made\Script\Trigger\ThunderTrigger.cs" />
   </ItemGroup>

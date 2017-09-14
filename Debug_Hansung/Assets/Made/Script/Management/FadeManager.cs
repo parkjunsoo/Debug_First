@@ -15,7 +15,7 @@ public class FadeManager : MonoBehaviour {
 
     private void Awake()
     {
-        //Fade(false, 1.0f);
+        Fade(false, 1.0f);
         Instance = this;
     }
 

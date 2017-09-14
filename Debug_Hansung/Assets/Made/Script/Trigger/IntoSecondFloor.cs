@@ -2,11 +2,11 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class ToiletManager : StageManager {
+public class IntSecondFloor : MonoBehaviour {
 
 	// Use this for initialization
 	void Start () {
-        SetPlayerTransform("InitPosition");
+		
 	}
 	
 	// Update is called once per frame

@@ -2,20 +2,11 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class OfficeManager : MonoBehaviour {
-
-    GameObject player;
-
-	// Use this for initialization
-	void Awake () {
-        player = GameObject.Find("Player");
-        player.transform.position = GameObject.Find("OfficeInitPosition").transform.position;
-    }
-
+public class OfficeManager : StageManager {
+    
     private void Start()
     {
-        player.transform.position = GameObject.Find("OfficeInitPosition").transform.position;
-
+        SetPlayerTransform("OfficeInitPosition");
     }
 
     // Update is called once per frame

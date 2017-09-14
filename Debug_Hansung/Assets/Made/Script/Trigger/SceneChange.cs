@@ -8,7 +8,7 @@ public class SceneChange : MonoBehaviour {
     float time;
     float enterTime;
     FadeManager fade;
-    PlayerControl player;
+    protected PlayerControl player;
     protected string changeSceneName;                  //바꿔줄 씬의 이름을 저장. 상속받은 각 Trigger 스크립트에서 설정할 것.
     //protected string startPos;                         //로드될 씬에서 player의 시작 위치를 저장. 상속받은 각 Trigger 스크립트에서 설정할 것.
     public bool canChangeScene;

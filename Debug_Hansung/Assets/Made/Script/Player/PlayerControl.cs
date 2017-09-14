@@ -1,8 +1,12 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class PlayerControl : MonoBehaviour {
+
+    public static PlayerControl instance = null;
+
     public float movementSpeed = 2.5f;
     public float mouseSensitivity = 2f;
     public float upDownRange = 90;
@@ -63,9 +67,16 @@ public class PlayerControl : MonoBehaviour {
     }
     
     // Use this for initialization
-    void Start()
+    void Awake()
     {
-        DontDestroyOnLoad(this);
+        if (instance == null)
+            instance = this;
+
+        else if (instance != this)
+            Destroy(gameObject);
+
+
+        DontDestroyOnLoad(gameObject);
         cc = GetComponent<CharacterController>();
         Cursor.lockState = CursorLockMode.Locked;
 
