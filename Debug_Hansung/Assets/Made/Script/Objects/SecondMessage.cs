@@ -2,11 +2,12 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class IntSecondFloor : MonoBehaviour {
+public class SecondMessage : Message {
 
 	// Use this for initialization
 	void Start () {
-		
+        if (GameObject.Find("Player").GetComponent<PlayerControl>().getBattery == false)
+            GetComponent<MeshRenderer>().enabled = false;
 	}
 	
 	// Update is called once per frame

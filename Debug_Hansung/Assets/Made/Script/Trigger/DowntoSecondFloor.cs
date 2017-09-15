@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class IntoSecondFloor : SceneChange {
+public class DowntoSecondFloor : SceneChange {
 
 	// Use this for initialization
 	void Start () {
@@ -11,8 +11,12 @@ public class IntoSecondFloor : SceneChange {
 
     private void FixedUpdate()
     {
-        if (player.getKey && player.getKnife)
+        if (player.GetMsgCount() == 2)
             canChangeScene = true;
     }
 
+    // Update is called once per frame
+    void Update () {
+		
+	}
 }
