@@ -14,6 +14,8 @@ public class FirstFloorManager : StageManager {
         player = GameObject.Find("Player");
         playerControl = player.GetComponent<PlayerControl>();
 
+        playerControl.sceneName = "FirstFloor";
+
         if (playerControl.GetMsgCount() == 0)
             SetPlayerTransform("InitPosition");
 

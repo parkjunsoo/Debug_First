@@ -525,6 +525,10 @@ MonoBehaviour:
   getKey: 0
   getCutter: 0
   getBattery: 0
+  isPaused: 0
+  messageUIOpened: 0
+  sceneName: 
+  sceneTransform: {fileID: 0}
 --- !u!124 &124295572064763404
 Behaviour:
   m_ObjectHideFlags: 1

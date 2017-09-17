@@ -247,6 +247,7 @@
     <Compile Include="Assets\Made\Script\Management\FadeManager.cs" />
     <Compile Include="Assets\Made\Script\Management\FirstFloorManager.cs" />
     <Compile Include="Assets\Made\Script\Management\IntroManager.cs" />
+    <Compile Include="Assets\Made\Script\Management\MessageUISceneManager.cs" />
     <Compile Include="Assets\Made\Script\Management\OfficeManager.cs" />
     <Compile Include="Assets\Made\Script\Management\StageManager.cs" />
     <Compile Include="Assets\Made\Script\Management\ThirdFloorManager.cs" />

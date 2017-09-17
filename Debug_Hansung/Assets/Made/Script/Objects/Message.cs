@@ -6,7 +6,7 @@ public class Message : MonoBehaviour {
     
 	// Use this for initialization
 	void Start () {
-        GetComponent<cakeslice.Outline>().enabled = false;
+        GetComponent<cakeslice.Outline>().enabled = false;          
 	}
 	
 	// Update is called once per frame
