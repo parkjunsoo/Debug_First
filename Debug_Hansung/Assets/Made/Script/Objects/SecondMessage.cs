@@ -8,6 +8,7 @@ public class SecondMessage : Message {
 	void Start () {
         if (GameObject.Find("Player").GetComponent<PlayerControl>().getBattery == false)
             GetComponent<MeshRenderer>().enabled = false;
+        GetComponent<cakeslice.Outline>().enabled = false;
 	}
 	
 	// Update is called once per frame
