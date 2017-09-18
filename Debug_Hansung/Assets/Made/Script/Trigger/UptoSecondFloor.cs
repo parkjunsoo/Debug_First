@@ -6,7 +6,7 @@ public class UptoSecondFloor : SceneChange {
 
 	// Use this for initialization
 	void Start () {
-        changeSceneName = "ThirdFloor";
+        changeSceneName = "SecondFloor";
 	}
 
     private void FixedUpdate()
@@ -20,3 +20,4 @@ public class UptoSecondFloor : SceneChange {
 		
 	}
 }
+
