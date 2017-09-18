@@ -23,3 +23,6 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Made/Scene/MessageUI.unity
     guid: d2800c469268804468883c9bdd1387ca
+  - enabled: 1
+    path: Assets/Made/Scene/BeforeStartScene.unity
+    guid: 09616b67872747b4db5bd7c8c1941dc1

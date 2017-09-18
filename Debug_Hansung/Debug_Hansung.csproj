@@ -244,6 +244,7 @@
     <Compile Include="Assets\Assets\Plugins\Pixelplacement\iTween\Sample\MoveSample.cs" />
     <Compile Include="Assets\Assets\Plugins\Pixelplacement\iTween\Sample\RotateSample.cs" />
     <Compile Include="Assets\Assets\Plugins\Pixelplacement\iTween\Sample\SampleInfo.cs" />
+    <Compile Include="Assets\Made\Script\Management\BeforeStartSceneManager.cs" />
     <Compile Include="Assets\Made\Script\Management\FadeManager.cs" />
     <Compile Include="Assets\Made\Script\Management\FirstFloorManager.cs" />
     <Compile Include="Assets\Made\Script\Management\IntroManager.cs" />
