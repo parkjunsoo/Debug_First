@@ -14,10 +14,6 @@ public class UptoSecondFloor : SceneChange {
         if (player.getKey && player.getKnife)
             canChangeScene = true;
     }
-
-    // Update is called once per frame
-    void Update () {
 		
-	}
 }
 

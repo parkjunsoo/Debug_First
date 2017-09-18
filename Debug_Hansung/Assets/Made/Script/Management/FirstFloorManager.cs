@@ -19,18 +19,23 @@ public class FirstFloorManager : StageManager {
         if (playerControl.GetMsgCount() == 0)
             SetPlayerTransform("InitPosition");
 
-        else if (playerControl.getKey && playerControl.getKnife)
+		else if (playerControl.getKey && playerControl.getKnife && !playerControl.getBattery)
         {
             Destroy(InitGameCollider);
             SetPlayerTransform("OfficeOutPosition");
         }
 
-        else if (playerControl.GetMsgCount() == 1)       //화장실에 들어갔다 나왔을 경우(쪽지를 1개 획득했을 경우), InitGameCollider를 제거
+		else if (playerControl.GetMsgCount() == 1 && !playerControl.getBattery)       //화장실에 들어갔다 나왔을 경우(쪽지를 1개 획득했을 경우), InitGameCollider를 제거
         {
             Destroy(InitGameCollider);
             SetPlayerTransform("ToiletOutPosition");
         }
 
+		else if(playerControl.getBattery && playerControl.getNipper)
+		{
+			Destroy(InitGameCollider);
+			SetPlayerTransform("SecondOutPosition");
+		}
 
         else if(playerControl.GetMsgCount() >= 1 && playerControl.getBattery)
         {
