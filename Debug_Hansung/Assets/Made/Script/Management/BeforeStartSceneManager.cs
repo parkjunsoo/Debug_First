@@ -18,6 +18,7 @@ public class BeforeStartSceneManager : MonoBehaviour {
 	// Update is called once per frame
 	void Update () {
         time += Time.deltaTime;
+        Camera.main.transform.rotation = Quaternion.Euler(0f, 0f, 0f);
         player.transform.rotation = Quaternion.Euler(0f, 0f, 0f);
         if (Input.GetKeyDown(KeyCode.T))
         {

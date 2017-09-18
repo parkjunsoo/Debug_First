@@ -1,8 +1,4 @@
 sceneSetups:
-<<<<<<< HEAD
 - path: Assets/Made/Scene/BeforeStartScene.unity
-=======
-- path: Assets/Made/Scene/Toilet.unity
->>>>>>> c432f70d0d5de36a092f01c308d1b987a6cb946e
   isLoaded: 1
   isActive: 1

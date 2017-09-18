@@ -19,7 +19,7 @@ public class IntroManager : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-		
+        Camera.main.transform.rotation = Quaternion.Euler(0f, 0f, 0f);
 	}
 
     IEnumerator Intro()

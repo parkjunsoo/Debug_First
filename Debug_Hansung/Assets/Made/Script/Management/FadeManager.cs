@@ -30,7 +30,7 @@ public class FadeManager : MonoBehaviour {
 
     // Use this for initialization
     void Start () {
-		
+        GameObject.Find("Player").transform.position = new Vector3(0f, 1f, 0f);
 	}
 	
 	// Update is called once per frame
