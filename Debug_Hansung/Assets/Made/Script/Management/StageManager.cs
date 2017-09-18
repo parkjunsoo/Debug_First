@@ -18,7 +18,16 @@ public class StageManager : MonoBehaviour {
 
     protected void SetPlayerTransform(string obj)
     {
-        player.transform.position = GameObject.Find(obj).transform.position;
-        player.transform.rotation = GameObject.Find(obj).transform.rotation;
+        if (player.GetComponent<PlayerControl>().messageUIOpened)
+        {
+            player.transform.position = player.GetComponent<PlayerControl>().sceneTransform.position;
+            player.transform.rotation = player.GetComponent<PlayerControl>().sceneTransform.rotation;
+            player.GetComponent<PlayerControl>().messageUIOpened = false;
+        }
+        else
+        {
+            player.transform.position = GameObject.Find(obj).transform.position;
+            player.transform.rotation = GameObject.Find(obj).transform.rotation;
+        }
     }
 }

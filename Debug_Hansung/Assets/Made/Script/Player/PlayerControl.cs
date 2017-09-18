@@ -7,6 +7,9 @@ public class PlayerControl : MonoBehaviour {
 
     public static PlayerControl instance = null;
 
+    float gameTime;
+    public float fadeTime;                 //MessageUI 씬으로 이동시 FadeOut을 위함
+
     public float movementSpeed = 2.5f;
     public float mouseSensitivity = 2f;
     public float upDownRange = 90;
@@ -51,6 +54,11 @@ public class PlayerControl : MonoBehaviour {
 
     static int msgCount;                   //획득한 쪽지 개수를 세기 위한 변수
 
+    public bool isPaused;                         //게임을 일시정지했는가(쪽지함을 열었는가)
+    public bool messageUIOpened;
+    public string sceneName;                //쪽지함 Scene을 열 때, 쪽지함 Scene에서 다시 이동할 씬을 저장하기 위함. 쪽지함 씬을 제외한 모든 씬을 이동할 때, 트리거에서 씬 이름을 받아와서 저장. 또는 각 SceneManager 스크립트의 Start에서 저장
+    public Transform sceneTransform;           //쪽지함 Scene을 열 때, 쪽지함 Scene에서 다시 이동한 후 원래 있던 위치와 Rotation을 저장하기 위함
+
     public void SetStartPosition(string pos)
     {
         startPosition = pos;
@@ -70,6 +78,11 @@ public class PlayerControl : MonoBehaviour {
     // Use this for initialization
     void Awake()
     {
+        getBattery = false;
+
+        messageUIOpened = false;
+        isPaused = false;
+
         if (instance == null)
             instance = this;
 
@@ -93,9 +106,11 @@ public class PlayerControl : MonoBehaviour {
     // Update is called once per frame
     void Update()
     {
+        gameTime += Time.deltaTime;
         //playerYAngle = new Vector3(0f, Camera.main.transform.rotation.eulerAngles.y, 0f);
-        FPMove();
-        FPRotate();           //HMD 없이 돌려볼 때에는 주석을 해제하고 할것
+        if(!isPaused)
+            FPMove();
+        //FPRotate();           //HMD 없이 돌려볼 때에는 주석을 해제하고 할것
         LEDOnOff();
         if (Input.GetKeyDown(KeyCode.R))
         {
@@ -103,6 +118,23 @@ public class PlayerControl : MonoBehaviour {
             InnerLight.intensity = GetComponent<LEDControl>().inner;
             OuterLight.intensity = GetComponent<LEDControl>().outer;
         }
+
+
+        if (Input.GetKeyDown(KeyCode.Escape))
+        {
+            fadeTime = gameTime;
+            GameObject.Find("FadeManager").GetComponent<FadeManager>().Fade(true, 1.25f);
+            isPaused = !isPaused;                           //이동을 막기 위함
+            //SceneManager.LoadScene("MessageUI");            //쪽지함 Scene으로 이동
+            sceneTransform = transform;                     //현재의 위치를 저장해둠
+            messageUIOpened = true;                         //StageManager에서, 직전에 열려있던 Scene이 MessageUI 씬인지를 판별하기 위함. 이 값은 StageManager에서 false로 바꿔줌
+        }
+        if (gameTime - fadeTime >= 1.25f && fadeTime != 0)
+        {
+            fadeTime = 0;
+            SceneManager.LoadScene("MessageUI");
+        }
+        
     }
 
     //Player의 x축, z축 움직임을 담당
@@ -153,8 +185,5 @@ public class PlayerControl : MonoBehaviour {
     {
 
     }
-
-
-
 
 }
