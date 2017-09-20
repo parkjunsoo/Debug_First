@@ -35,7 +35,7 @@ public class OVRScreenFade : MonoBehaviour
 	/// <summary>
 	/// The initial screen color.
 	/// </summary>
-	public Color fadeColor = new Color(0.01f, 0.01f, 0.01f, 1.0f);
+	public Color fadeColor = new Color(0.0f, 0.0f, 0.0f, 1.0f);
 
 	private Material fadeMaterial = null;
 	private bool isFading = false;
@@ -50,6 +50,69 @@ public class OVRScreenFade : MonoBehaviour
 		fadeMaterial = new Material(Shader.Find("Oculus/Unlit Transparent Color"));
 	}
 
+    public void StartFadeOut()
+    {
+        StartCoroutine(FadeOut());
+    }
+
+    public void StartFadeIn()
+    {
+        StartCoroutine(FadeIn());
+    }
+
+    IEnumerator FadeOut()
+    {
+        float elapsedTime = 0.0f;
+        Color color = new Color(0.0f, 0.0f, 0.0f, 1.0f);//fadeColor;
+        color.a = 0f;
+        fadeMaterial.color = color;
+        isFading = true;
+        while(elapsedTime < fadeTime)
+        {
+            yield return fadeInstruction;
+            elapsedTime += Time.deltaTime;
+            color.a = Mathf.Clamp01(elapsedTime / fadeTime);
+            fadeMaterial.color = color;
+            Debug.Log(elapsedTime / fadeTime);
+        }
+        isFading = false;
+        Debug.Log("Fadeout completed, " + isFading);
+    }
+    /// <summary>
+    /// Fades alpha from 1.0 to 0.0
+    /// </summary>
+    IEnumerator FadeIn()
+    {
+        float elapsedTime = 0.0f;
+        Color color = new Color(0.0f, 0.0f, 0.0f, 1.0f);//fadeColor;
+        color.a = 1f;
+        fadeMaterial.color = color;
+        isFading = true;
+        while (elapsedTime < fadeTime)
+        {
+            yield return fadeInstruction;
+            elapsedTime += Time.deltaTime;
+            color.a = Mathf.Clamp01(1 - elapsedTime / fadeTime);
+            fadeMaterial.color = color;
+        }
+        isFading = false;
+        Debug.Log("FadeIn completed, " + isFading);
+    }
+        /*
+		float elapsedTime = 0.0f;
+		fadeMaterial.color = fadeColor;
+		Color color = fadeColor;
+		isFading = true;
+		while (elapsedTime < fadeTime)
+		{
+			yield return fadeInstruction;
+			elapsedTime += Time.deltaTime;
+			color.a = 1.0f - Mathf.Clamp01(elapsedTime / fadeTime);
+			fadeMaterial.color = color;
+		}
+		isFading = false;
+    }
+    */
 	/// <summary>
 	/// Starts the fade in
 	/// </summary>
@@ -81,24 +144,6 @@ public class OVRScreenFade : MonoBehaviour
 		}
 	}
 
-	/// <summary>
-	/// Fades alpha from 1.0 to 0.0
-	/// </summary>
-	IEnumerator FadeIn()
-	{
-		float elapsedTime = 0.0f;
-		fadeMaterial.color = fadeColor;
-		Color color = fadeColor;
-		isFading = true;
-		while (elapsedTime < fadeTime)
-		{
-			yield return fadeInstruction;
-			elapsedTime += Time.deltaTime;
-			color.a = 1.0f - Mathf.Clamp01(elapsedTime / fadeTime);
-			fadeMaterial.color = color;
-		}
-		isFading = false;
-	}
 
 	/// <summary>
 	/// Renders the fade overlay when attached to a camera object

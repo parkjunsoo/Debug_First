@@ -17,6 +17,7 @@ public class BeforeStartSceneManager : MonoBehaviour {
         audio = player.GetComponent<AudioSource>();
         audio.Play();
         audio.volume = 0.7f;
+        Camera.main.GetComponent<OVRScreenFade>().StartFadeIn();
 	}
 	
 	// Update is called once per frame
@@ -26,10 +27,11 @@ public class BeforeStartSceneManager : MonoBehaviour {
         if (Input.GetKeyDown(KeyCode.T))
         {
             fadeTime = time;
-            GameObject.Find("FadeManager").GetComponent<FadeManager>().Fade(true, 1.25f);
+            Camera.main.GetComponent<OVRScreenFade>().StartFadeOut();
+            //GameObject.Find("FadeManager").GetComponent<FadeManager>().Fade(true, 1.25f);
         }
 
-        if (time - fadeTime >= 1.25f && fadeTime != 0)
+        if (time - fadeTime >= 1.5f && fadeTime != 0)
         {
             player.GetComponent<PlayerControl>().isPaused = false;
             UnityEngine.SceneManagement.SceneManager.LoadScene("FirstFloor");

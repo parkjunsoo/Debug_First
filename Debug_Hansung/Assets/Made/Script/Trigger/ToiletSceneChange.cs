@@ -17,7 +17,7 @@ public class ToiletSceneChange : MonoBehaviour {
     void Awake()
     {
         player = GameObject.Find("Player").GetComponent<PlayerControl>();
-        fade = GameObject.Find("ToiletFadeManager").GetComponent<ToiletFadeManager>();
+        //fade = GameObject.Find("ToiletFadeManager").GetComponent<ToiletFadeManager>();
         time = 0f;
         enterTime = 0f;
         changeSceneName = "FirstFloor";
@@ -40,7 +40,8 @@ public class ToiletSceneChange : MonoBehaviour {
         if (canChangeScene)
         {
             enterTime = time;
-            fade.Fade(true, 1.25f);
+            //fade.Fade(true, 1.25f);
+            Camera.main.GetComponent<OVRScreenFade>().StartFadeOut();
         }
         //player.SetStartPosition(startPos);
     }

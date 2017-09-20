@@ -36,17 +36,19 @@ public class Subtitle : MonoBehaviour {
     {
         subTitle.text = txt;
 
-        while (subTitle.color.a <= 255.0f)
+        while (subTitle.color.a < 1.0f)
         {
-            subTitle.color = new Color(subTitle.color.r, subTitle.color.g, subTitle.color.b, subTitle.color.a + 0.01f);
-            Debug.Log("hi");
+            subTitle.color = new Color(subTitle.color.r, subTitle.color.g, subTitle.color.b, subTitle.color.a + 0.2f);
+            Debug.Log(subTitle.color.a);
             yield return new WaitForSeconds(0.1f);
         }
+        Debug.Log("break");
         yield return new WaitForSeconds(2f);
 
-        while(subTitle.color.a >= 0f)
+        while(subTitle.color.a > 0f)
         {
-            subTitle.color = new Color(subTitle.color.r, subTitle.color.g, subTitle.color.b, subTitle.color.a - 0.01f);
+            subTitle.color = new Color(subTitle.color.r, subTitle.color.g, subTitle.color.b, subTitle.color.a - 0.2f);
+            Debug.Log(subTitle.color.a);
             yield return new WaitForSeconds(0.1f);
         }
 

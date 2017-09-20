@@ -7,7 +7,7 @@ public class ThirdFloorManager : StageManager {
 	// Use this for initialization
 	void Start () {
         SetPlayerTransform("InitPosition");
-
+        Camera.main.GetComponent<OVRScreenFade>().StartFadeIn();
         GameObject.Find("Player").GetComponent<PlayerControl>().sceneName = "ThirdFloor";
 	}
 	
