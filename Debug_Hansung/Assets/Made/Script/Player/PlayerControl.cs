@@ -7,6 +7,8 @@ public class PlayerControl : MonoBehaviour {
 
     public static PlayerControl instance = null;
 
+    public bool blackOut;
+
     float gameTime;
     public float fadeTime;                 //MessageUI 씬으로 이동시 FadeOut을 위함
 
@@ -93,7 +95,7 @@ public class PlayerControl : MonoBehaviour {
 
         DontDestroyOnLoad(gameObject);
         cc = GetComponent<CharacterController>();
-        Cursor.lockState = CursorLockMode.Locked;
+        //Cursor.lockState = CursorLockMode.Locked;
 
         InnerLight = GameObject.Find("InnerLED").GetComponent<Light>();
         OuterLight = GameObject.Find("OuterLED").GetComponent<Light>();

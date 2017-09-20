@@ -4,7 +4,7 @@ using UnityEngine;
 using UnityEngine.SceneManagement;
 
 public class SceneChange : MonoBehaviour {
-
+    
     float time;
     float enterTime;
     FadeManager fade;

@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class StageManager : MonoBehaviour {
 
-    GameObject player;
+    public GameObject player;
 
 	// Use this for initialization
 	void Awake () {

@@ -13,6 +13,8 @@ public class FadeManager : MonoBehaviour {
     private bool isShowing;
     private float duration;
 
+    float time;
+
     private void Awake()
     {
         Fade(false, 1.0f);
@@ -29,9 +31,10 @@ public class FadeManager : MonoBehaviour {
     }
 
     // Use this for initialization
-    void Start () {
-        GameObject.Find("Player").transform.position = new Vector3(0f, 1f, 0f);
-	}
+    void Start ()
+    {
+
+    }
 	
 	// Update is called once per frame
 	void Update () {
@@ -44,5 +47,8 @@ public class FadeManager : MonoBehaviour {
 
         if (transition > 1 || transition < 0)
             isInTransition = false;
+
+        time += Time.deltaTime;
 	}
+
 }
