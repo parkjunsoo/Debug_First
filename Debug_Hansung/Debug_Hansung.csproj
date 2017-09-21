@@ -271,6 +271,7 @@
     <Compile Include="Assets\Made\Script\Player\LEDControl.cs" />
     <Compile Include="Assets\Made\Script\Player\PlayerControl.cs" />
     <Compile Include="Assets\Made\Script\Player\Subtitle.cs" />
+    <Compile Include="Assets\Made\Script\Player\SubtitleRotation.cs" />
     <Compile Include="Assets\Made\Script\Thunder\ThunderLight.cs" />
     <Compile Include="Assets\Made\Script\Trigger\DowntoFirstFloor.cs" />
     <Compile Include="Assets\Made\Script\Trigger\DowntoSecondFloor.cs" />

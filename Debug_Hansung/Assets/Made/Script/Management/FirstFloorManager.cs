@@ -4,14 +4,15 @@ using UnityEngine;
 
 public class FirstFloorManager : StageManager {
 
-    GameObject player;
+    //GameObject player;
     PlayerControl playerControl;
     GameObject InitGameCollider;
 
 	// Use this for initialization
 	void Start () {
         InitGameCollider = GameObject.Find("InitGameCollider");         //게임이 시작되었을 때, 시작 위치 뒤쪽에 있는 collider를 저장
-        player = GameObject.Find("Player");
+        //player = GameObject.Find("Player");
+        Camera.main.GetComponent<OVRScreenFade>().StartFadeIn();
         playerControl = player.GetComponent<PlayerControl>();
 
         playerControl.sceneName = "FirstFloor";

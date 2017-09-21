@@ -6,6 +6,7 @@ public class OfficeManager : StageManager {
     
     private void Start()
     {
+        Camera.main.GetComponent<OVRScreenFade>().StartFadeIn();
         SetPlayerTransform("OfficeInitPosition");
         GameObject.Find("Player").GetComponent<PlayerControl>().sceneName = "Office";
     }

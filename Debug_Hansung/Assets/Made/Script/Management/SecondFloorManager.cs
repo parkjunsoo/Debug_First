@@ -14,6 +14,7 @@ public class SecondFloorManager : StageManager {
 		UpToThirdFloor = GameObject.Find ("UpToThirdFloor");
 		player = GameObject.Find ("Player");
 		playerControl = player.GetComponent<PlayerControl> ();
+        Camera.main.GetComponent<OVRScreenFade>().StartFadeIn();
 
 		if (!playerControl.getBattery) { //2층 올라갔을때의 처음위치
 			SetPlayerTransform ("SecondInitPosition");

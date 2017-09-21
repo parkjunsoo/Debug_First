@@ -17,8 +17,8 @@ public class FadeManager : MonoBehaviour {
 
     private void Awake()
     {
-        Fade(false, 1.0f);
         Instance = this;
+        //Fade(false, 2.0f);
     }
 
     public void Fade(bool showing, float duration)                  //true일 경우 어두워짐, false일 경우 밝아짐, duration = 어두워지는(밝아지는)데 걸리는 시간
@@ -43,7 +43,7 @@ public class FadeManager : MonoBehaviour {
             return;
 
         transition += (isShowing) ? Time.deltaTime * (1 / duration) : -Time.deltaTime * (1 / duration);
-        fadeImage.color = Color.Lerp(new Color(1, 1, 1, 0), Color.black, transition);
+        fadeImage.color = Color.Lerp(new Color(0, 0, 0, 0), Color.black, transition);
 
         if (transition > 1 || transition < 0)
             isInTransition = false;
