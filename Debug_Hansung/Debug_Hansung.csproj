@@ -256,6 +256,8 @@
     <Compile Include="Assets\Made\Script\Management\ToiletFadeManager.cs" />
     <Compile Include="Assets\Made\Script\Management\ToiletManager.cs" />
     <Compile Include="Assets\Made\Script\Objects\Battery.cs" />
+    <Compile Include="Assets\Made\Script\Objects\BugDoor.cs" />
+    <Compile Include="Assets\Made\Script\Objects\DoorLock.cs" />
     <Compile Include="Assets\Made\Script\Objects\Item.cs" />
     <Compile Include="Assets\Made\Script\Objects\Key.cs" />
     <Compile Include="Assets\Made\Script\Objects\Knife.cs" />
