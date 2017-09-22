@@ -266,6 +266,8 @@
     <Compile Include="Assets\Made\Script\Objects\Locker.cs" />
     <Compile Include="Assets\Made\Script\Objects\Message.cs" />
     <Compile Include="Assets\Made\Script\Objects\Nipper.cs" />
+    <Compile Include="Assets\Made\Script\Objects\NumberPad.cs" />
+    <Compile Include="Assets\Made\Script\Objects\NumButton.cs" />
     <Compile Include="Assets\Made\Script\Objects\OfficeLamp.cs" />
     <Compile Include="Assets\Made\Script\Objects\OpenToiletDoor.cs" />
     <Compile Include="Assets\Made\Script\Objects\SecondMessage.cs" />
