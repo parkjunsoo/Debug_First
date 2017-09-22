@@ -76,7 +76,6 @@ public class OVRScreenFade : MonoBehaviour
             Debug.Log(elapsedTime / fadeTime);
         }
         isFading = false;
-        Debug.Log("Fadeout completed, " + isFading);
     }
     /// <summary>
     /// Fades alpha from 1.0 to 0.0

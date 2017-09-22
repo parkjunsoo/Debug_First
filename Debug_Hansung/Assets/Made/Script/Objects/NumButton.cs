@@ -32,7 +32,7 @@ public class NumButton : MonoBehaviour {
 
     private void OnTriggerStay(Collider other)
     {
-        if (Input.GetKeyDown(KeyCode.E) && numberPad.isEnabled)
+        if (Input.GetKeyDown(KeyCode.F) && numberPad.isEnabled)
         {
             if (number == "#")
             {
@@ -42,6 +42,7 @@ public class NumButton : MonoBehaviour {
                     numberPad.isEnabled = false;
                     pwText.text = "PassWord : ";
                     numberPad.inputTxt = "";
+                    outline.enabled = false;
                     GameObject.Find("DoorLock").GetComponent<DoorLock>().canOpen = true;
                 }
             }
@@ -51,6 +52,7 @@ public class NumButton : MonoBehaviour {
                 numberPad.isEnabled = false;
                 pwText.text = "PassWord : ";
                 numberPad.inputTxt = "";
+                outline.enabled = false;
                 GameObject.Find("DoorLock").GetComponent<DoorLock>().Disable();
             }
             else

@@ -14,6 +14,7 @@ public class NumberPad : MonoBehaviour {
 	// Use this for initialization
 	void Start () {
         cursor = GameObject.Find("Cursor");
+        cursor.GetComponent<cakeslice.Outline>().enabled = false;
         isEnabled = false;
         inputTxt = "";
         foreach (MeshRenderer mesh in GetComponentsInChildren<MeshRenderer>())
@@ -26,6 +27,8 @@ public class NumberPad : MonoBehaviour {
 	void Update () {
         if (isEnabled)
             CursorMoving();
+        else
+            cursor.GetComponent<cakeslice.Outline>().enabled = false;
     }
 
     void CursorMoving()

@@ -43,15 +43,15 @@ public class DoorLock : MonoBehaviour {
 
     private void OnTriggerStay(Collider other)
     {
-        if (Input.GetKeyDown(KeyCode.E) && other.name.Contains("Player"))
-        {
-            cursor.GetComponent<cakeslice.Outline>().enabled = true;
+        if (Input.GetKeyDown(KeyCode.E) && other.name.Contains("Player") && !canOpen)
             Enable();
-        }
+        if (canOpen)
+            Disable();
     }
 
     public void Enable()
     {
+        cursor.GetComponent<cakeslice.Outline>().enabled = true;
         player.GetComponent<PlayerControl>().isPaused = true;
         numberPad.GetComponent<NumberPad>().isEnabled = true;
         numberPad.GetComponent<MeshRenderer>().enabled = true;
@@ -62,7 +62,7 @@ public class DoorLock : MonoBehaviour {
     public void Disable()
     {
         cursor.GetComponent<cakeslice.Outline>().enabled = false;
-        cursor.transform.position = new Vector3(0f, 0f, 0f);
+        //cursor.transform.position = new Vector3(0f, 0f, 0f);
         player.GetComponent<PlayerControl>().isPaused = false;
         numberPad.GetComponent<MeshRenderer>().enabled = false;
         numberPad.GetComponent<NumberPad>().isEnabled = false;
