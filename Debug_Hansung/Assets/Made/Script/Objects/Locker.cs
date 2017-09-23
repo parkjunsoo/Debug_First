@@ -28,7 +28,7 @@ public class Locker : MonoBehaviour {
 
 	private void OnTriggerStay(Collider other)
 	{
-		if (Input.GetKeyDown(KeyCode.Q) && GameObject.Find("Lock_Close").GetComponent<Lock>().isCut)
+		if (Input.GetKeyDown(KeyCode.R) && GameObject.Find("Lock_Close").GetComponent<Lock>().isCut)
 		{
 			opening = true;
 
