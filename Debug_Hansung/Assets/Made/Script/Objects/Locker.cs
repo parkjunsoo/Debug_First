@@ -4,7 +4,8 @@ using UnityEngine;
 
 public class Locker : MonoBehaviour {
 
-	bool opening;
+    public bool canOpen;
+	public bool opening;
 	// Use this for initialization
 	void Start () {
 		GetComponent<cakeslice.Outline>().enabled = false;
@@ -20,7 +21,7 @@ public class Locker : MonoBehaviour {
 
 	private void OnTriggerEnter(Collider other)
 	{
-		if (other.name.Contains("Player"))
+		if (other.name.Contains("Player") && GameObject.Find("Lock_Close").GetComponent<Lock>().isCut)
 		{
 			GetComponent<cakeslice.Outline>().enabled = true;
 		}
@@ -28,7 +29,14 @@ public class Locker : MonoBehaviour {
 
 	private void OnTriggerStay(Collider other)
 	{
+<<<<<<< HEAD
 		if (Input.GetKeyDown(KeyCode.R) && GameObject.Find("Lock_Close").GetComponent<Lock>().isCut)
+=======
+        if (other.name.Contains("Player") && GameObject.Find("Lock_Close").GetComponent<Lock>().isCut)
+            GetComponent<cakeslice.Outline>().enabled = true;
+
+		if (Input.GetKeyDown(KeyCode.Q) && GameObject.Find("Lock_Close").GetComponent<Lock>().isCut)
+>>>>>>> 6c445c1e483910742b90ca5eda0a883180e21f33
 		{
 			opening = true;
 
