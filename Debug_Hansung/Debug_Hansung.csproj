@@ -285,6 +285,7 @@
     <Compile Include="Assets\Made\Script\Trigger\IntoToilet.cs" />
     <Compile Include="Assets\Made\Script\Trigger\SceneChange.cs" />
     <Compile Include="Assets\Made\Script\Trigger\ThunderTrigger.cs" />
+    <Compile Include="Assets\Made\Script\Trigger\ToiletOutSubtitle.cs" />
     <Compile Include="Assets\Made\Script\Trigger\ToiletSceneChange.cs" />
     <Compile Include="Assets\Made\Script\Trigger\UptoSecondFloor.cs" />
     <Compile Include="Assets\Made\Script\Trigger\UptoThirdFloor.cs" />
