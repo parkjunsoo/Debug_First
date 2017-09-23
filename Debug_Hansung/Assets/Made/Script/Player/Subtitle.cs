@@ -4,12 +4,14 @@ using UnityEngine;
 
 public class Subtitle : MonoBehaviour {
 
+    TextMesh newSubtitle;
     TextMesh subTitle;
     string subtitleText;
     MeshRenderer mesh;
 
 	// Use this for initialization
 	void Start () {
+        newSubtitle = GameObject.Find("newSubtitle").GetComponent<TextMesh>();
         mesh = GetComponent<MeshRenderer>();
         subTitle = GetComponent<TextMesh>();
         subtitleText = "";
@@ -38,17 +40,19 @@ public class Subtitle : MonoBehaviour {
 
         while (subTitle.color.a < 1.0f)
         {
-            subTitle.color = new Color(subTitle.color.r, subTitle.color.g, subTitle.color.b, subTitle.color.a + 0.2f);
-            Debug.Log(subTitle.color.a);
+            subTitle.color = new Color(subTitle.color.r, subTitle.color.g, subTitle.color.b, subTitle.color.a + 0.1f);
+            //newSubtitle.color = new Color(newSubtitle.color.r, newSubtitle.color.g, newSubtitle.color.b, newSubtitle.color.a + 0.2f);
+            //Debug.Log(subTitle.color.a);
             yield return new WaitForSeconds(0.1f);
         }
-        Debug.Log("break");
+        //Debug.Log("break");
         yield return new WaitForSeconds(2f);
 
         while(subTitle.color.a > 0f)
         {
-            subTitle.color = new Color(subTitle.color.r, subTitle.color.g, subTitle.color.b, subTitle.color.a - 0.2f);
-            Debug.Log(subTitle.color.a);
+            subTitle.color = new Color(subTitle.color.r, subTitle.color.g, subTitle.color.b, subTitle.color.a - 0.1f);
+            //newSubtitle.color = new Color(newSubtitle.color.r, newSubtitle.color.g, newSubtitle.color.b, newSubtitle.color.a - 0.2f);
+            //Debug.Log(subTitle.color.a);
             yield return new WaitForSeconds(0.1f);
         }
 

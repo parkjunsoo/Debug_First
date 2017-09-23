@@ -18,31 +18,35 @@ public class FirstFloorManager : StageManager {
         playerControl.sceneName = "FirstFloor";
 
         if (playerControl.GetMsgCount() == 0)
+        {
             SetPlayerTransform("InitPosition");
+            GameObject.Find("SubTitle").GetComponent<Subtitle>().Printing("나 화장실 다녀올게");
+        }
 
-		else if (playerControl.getKey && playerControl.getKnife && !playerControl.getBattery)
+        else if (playerControl.getKey && playerControl.getKnife && !playerControl.getBattery)
         {
             Destroy(InitGameCollider);
             SetPlayerTransform("OfficeOutPosition");
         }
 
-		else if (playerControl.GetMsgCount() == 1 && !playerControl.getBattery)       //화장실에 들어갔다 나왔을 경우(쪽지를 1개 획득했을 경우), InitGameCollider를 제거
+        else if (playerControl.GetMsgCount() == 1 && !playerControl.getBattery)       //화장실에 들어갔다 나왔을 경우(쪽지를 1개 획득했을 경우), InitGameCollider를 제거
         {
             Destroy(InitGameCollider);
             SetPlayerTransform("ToiletOutPosition");
         }
 
-		else if(playerControl.getBattery && playerControl.getNipper)
-		{
-			Destroy(InitGameCollider);
-			SetPlayerTransform("SecondOutPosition");
-		}
+        else if (playerControl.getBattery && playerControl.getNipper)
+        {
+            Destroy(InitGameCollider);
+            SetPlayerTransform("SecondOutPosition");
+        }
 
-        else if(playerControl.GetMsgCount() >= 1 && playerControl.getBattery)
+        else if (playerControl.GetMsgCount() >= 1 && playerControl.getBattery)
         {
             Destroy(InitGameCollider);
             SetPlayerTransform("DownPosition");
         }
+
 	}
 
     //void SetPlayerTransform(string obj)
