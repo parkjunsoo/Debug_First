@@ -6,11 +6,15 @@ public class ThunderTrigger : MonoBehaviour {
 
     PlayerControl player;
     public GameObject thunder;
+    OfficeLamp[] ofLamp;
+    AudioSource thunderSound;
 
 	// Use this for initialization
 	void Start () {
         player = GameObject.Find("Player").GetComponent<PlayerControl>();
         thunder = GameObject.Find("ThunderLight");
+        ofLamp = GameObject.Find("LampGroup").GetComponentsInChildren<OfficeLamp>();
+        thunderSound = GetComponent<AudioSource>();
 	}
 	
 	// Update is called once per frame
@@ -26,6 +30,12 @@ public class ThunderTrigger : MonoBehaviour {
         if (player.getKey && player.getKnife)
         {
             thunder.GetComponent<ThunderLight>().Thunder();
+            player.GetComponent<PlayerControl>().blackOut = true;
+            foreach(OfficeLamp lamp in ofLamp)
+            {
+                lamp.BlackOut();
+            }
+            thunderSound.Play();
         }
     }
 }

@@ -12,7 +12,7 @@ public class Lock : MonoBehaviour {
 	void Start () {
 		player = GameObject.Find("Player");
 		playerControl = player.GetComponent<PlayerControl>();
-
+        GetComponent<cakeslice.Outline>().enabled = false;
 		isCut = false;
 	}
 
@@ -31,12 +31,16 @@ public class Lock : MonoBehaviour {
 
 	private void OnCollisionEnter(Collision collision)
 	{
-		if(collision.collider.tag == "Plane")           //충돌한 collider의 tag가 'Plane'일 경우 호출
-			Debug.Log("CollisionEnter in Script_Lock Called");
+        if(collision.collider.name.Contains("Player"))
+            GetComponent<cakeslice.Outline>().enabled = true;
+        if (collision.collider.tag == "Plane")           //충돌한 collider의 tag가 'Plane'일 경우 호출
+            Debug.Log("CollisionEnter in Script_Lock Called");
 	}
 
 	private void OnTriggerStay(Collider other)
 	{
+        if (other.name.Contains("Player") && other.GetComponent<PlayerControl>().getNipper)
+            GetComponent<cakeslice.Outline>().enabled = true;
 		if (other.name.Contains ("Player") && Input.GetKeyDown (KeyCode.Q)) {
 			if (other.GetComponent<PlayerControl> ().getNipper) {
 				Cut();

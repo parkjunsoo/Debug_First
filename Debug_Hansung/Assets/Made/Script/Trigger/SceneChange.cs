@@ -4,10 +4,10 @@ using UnityEngine;
 using UnityEngine.SceneManagement;
 
 public class SceneChange : MonoBehaviour {
-
+    
     float time;
     float enterTime;
-    FadeManager fade;
+    //FadeManager fade;
     protected PlayerControl player;
     protected string changeSceneName;                  //바꿔줄 씬의 이름을 저장. 상속받은 각 Trigger 스크립트에서 설정할 것.
     //protected string startPos;                         //로드될 씬에서 player의 시작 위치를 저장. 상속받은 각 Trigger 스크립트에서 설정할 것.
@@ -16,7 +16,7 @@ public class SceneChange : MonoBehaviour {
 	// Use this for initialization
 	void Awake () {
         player = GameObject.Find("Player").GetComponent<PlayerControl>();
-        fade = GameObject.Find("FadeManager").GetComponent<FadeManager>();
+        //fade = GameObject.Find("FadeManager").GetComponent<FadeManager>();
         time = 0f;
         enterTime = 0f;
 	}
@@ -35,7 +35,8 @@ public class SceneChange : MonoBehaviour {
         if (canChangeScene)
         {
             enterTime = time;
-            fade.Fade(true, 1.25f);
+            Camera.main.GetComponent<OVRScreenFade>().StartFadeOut();
+            //fade.Fade(true, 1.25f);
         }
         //player.SetStartPosition(startPos);
     }    

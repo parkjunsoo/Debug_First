@@ -38,6 +38,7 @@ GameObject:
   - component: {fileID: 33314731797259740}
   - component: {fileID: 65309795096180622}
   - component: {fileID: 23830134877955604}
+  - component: {fileID: 114823313001813832}
   m_Layer: 0
   m_Name: Lamp
   m_TagString: Untagged
@@ -68,7 +69,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1652274611178256}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: -27.4, z: 0}
+  m_LocalPosition: {x: 0, y: -73.399994, z: -0.00000011920929}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 4917677191375926}
@@ -93,9 +94,9 @@ Transform:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1181042187750990}
-  m_LocalRotation: {x: 0, y: 0.7071068, z: 0, w: 0.7071068}
-  m_LocalPosition: {x: -0.865, y: 2.912, z: -0.73}
-  m_LocalScale: {x: 1, y: 0.05, z: 0.2}
+  m_LocalRotation: {x: -0.7071068, y: -0, z: -0, w: 0.7071068}
+  m_LocalPosition: {x: 4.966666, y: 369.2, z: -7.6199994}
+  m_LocalScale: {x: 3.3333342, y: 0.10000001, z: 4.000002}
   m_Children:
   - {fileID: 4693978748179314}
   - {fileID: 4668342043342164}
@@ -163,8 +164,8 @@ Light:
   serializedVersion: 8
   m_Type: 2
   m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_Intensity: 0.5
-  m_Range: 10
+  m_Intensity: 1
+  m_Range: 15
   m_SpotAngle: 30
   m_CookieSize: 10
   m_Shadows:
@@ -214,7 +215,7 @@ Light:
   m_Type: 0
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_Intensity: 1
-  m_Range: 10
+  m_Range: 20
   m_SpotAngle: 179
   m_CookieSize: 10
   m_Shadows:
@@ -253,3 +254,15 @@ Light:
   m_UseColorTemperature: 0
   m_ShadowRadius: 0
   m_ShadowAngle: 0
+--- !u!114 &114823313001813832
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1181042187750990}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4f6999d804aebf944bbe126caeb5f858, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  lights: []

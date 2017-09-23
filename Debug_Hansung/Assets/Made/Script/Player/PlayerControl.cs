@@ -7,6 +7,8 @@ public class PlayerControl : MonoBehaviour {
 
     public static PlayerControl instance = null;
 
+    public bool blackOut;
+
     float gameTime;
     public float fadeTime;                 //MessageUI 씬으로 이동시 FadeOut을 위함
 
@@ -93,7 +95,7 @@ public class PlayerControl : MonoBehaviour {
 
         DontDestroyOnLoad(gameObject);
         cc = GetComponent<CharacterController>();
-        Cursor.lockState = CursorLockMode.Locked;
+        //Cursor.lockState = CursorLockMode.Locked;
 
         InnerLight = GameObject.Find("InnerLED").GetComponent<Light>();
         OuterLight = GameObject.Find("OuterLED").GetComponent<Light>();
@@ -111,7 +113,7 @@ public class PlayerControl : MonoBehaviour {
         //playerYAngle = new Vector3(0f, Camera.main.transform.rotation.eulerAngles.y, 0f);
         if(!isPaused)
             FPMove();
-        FPRotate();           //HMD 없이 돌려볼 때에는 주석을 해제하고 할것
+        //FPRotate();           //HMD 없이 돌려볼 때에는 주석을 해제하고 할것
         LEDOnOff();
 		if (Input.GetKeyDown(KeyCode.R)&&getBattery) //배터리 획득후 R누르면 충전 
         {

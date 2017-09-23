@@ -11,7 +11,10 @@ public class MessageUISceneManager : MonoBehaviour {
 
 	// Use this for initialization
 	void Start () {
+        Camera.main.GetComponent<OVRScreenFade>().StartFadeIn();
         player = GameObject.Find("Player").GetComponent<PlayerControl>();
+        player.transform.position = new Vector3(0f, 1.5f, 0f);
+        player.transform.rotation = Quaternion.Euler(0f, 0f, 0f);
         player.fadeTime = 0f;
         if (!player.isPaused)
             player.isPaused = true;
@@ -24,6 +27,7 @@ public class MessageUISceneManager : MonoBehaviour {
         if (Input.GetKeyDown(KeyCode.Escape))
         {
             fadeTime = sceneTime;
+            Camera.main.GetComponent<OVRScreenFade>().StartFadeOut();
             GameObject.Find("FadeManager").GetComponent<FadeManager>().Fade(true, 1.25f);
         }
         if(sceneTime - fadeTime >= 1.25f && fadeTime != 0)
