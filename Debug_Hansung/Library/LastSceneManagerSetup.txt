@@ -1,4 +1,8 @@
 sceneSetups:
+<<<<<<< HEAD
 - path: Assets/Made/Scene/Intro.unity
+=======
+- path: Assets/Made/Scene/ThirdFloor.unity
+>>>>>>> parent of 6c445c1... 0922Commit
   isLoaded: 1
   isActive: 1

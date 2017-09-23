@@ -1503,9 +1503,12 @@ Transform:
   m_RootOrder: 9
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 <<<<<<< HEAD
+<<<<<<< HEAD
 --- !u!1001 &1075258614
 Prefab:
 =======
+=======
+>>>>>>> parent of 6c445c1... 0922Commit
 --- !u!84 &966542649
 RenderTexture:
   m_ObjectHideFlags: 0
@@ -1535,7 +1538,65 @@ RenderTexture:
   m_VolumeDepth: 1
 --- !u!84 &1023756671
 RenderTexture:
+<<<<<<< HEAD
 >>>>>>> 7354a4b1683d7bb57cfec0488b84a84644a0be7b
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: 
+  m_ImageContentsHash:
+    serializedVersion: 2
+    Hash: 00000000000000000000000000000000
+  m_Width: 762
+  m_Height: 388
+  m_AntiAliasing: 1
+  m_DepthFormat: 1
+  m_ColorFormat: 0
+  m_MipMap: 0
+  m_GenerateMips: 1
+  m_SRGB: 0
+  m_TextureSettings:
+    serializedVersion: 2
+    m_FilterMode: 1
+    m_Aniso: 1
+    m_MipBias: 0
+    m_WrapU: 1
+    m_WrapV: 1
+    m_WrapW: 1
+  m_Dimension: 2
+  m_VolumeDepth: 1
+--- !u!1 &1032259085
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 1032259086}
+  m_Layer: 0
+  m_Name: ToiletOutPosition
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1032259086
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1032259085}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 5.72, y: 1, z: -1.78}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1967961404}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1001 &1075258614
+Prefab:
+=======
+>>>>>>> parent of 6c445c1... 0922Commit
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
@@ -1808,6 +1869,7 @@ Transform:
     type: 2}
   m_PrefabInternal: {fileID: 207703929}
 <<<<<<< HEAD
+<<<<<<< HEAD
 --- !u!1 &1359066344
 GameObject:
   m_ObjectHideFlags: 0
@@ -1934,6 +1996,8 @@ Prefab:
   m_IsPrefabParent: 0
 =======
 >>>>>>> 7354a4b1683d7bb57cfec0488b84a84644a0be7b
+=======
+>>>>>>> parent of 6c445c1... 0922Commit
 --- !u!1 &1445030541
 GameObject:
   m_ObjectHideFlags: 0
