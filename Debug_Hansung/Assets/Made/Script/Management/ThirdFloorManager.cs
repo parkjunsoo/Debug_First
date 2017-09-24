@@ -9,6 +9,7 @@ public class ThirdFloorManager : StageManager {
         SetPlayerTransform("InitPosition");
         Camera.main.GetComponent<OVRScreenFade>().StartFadeIn();
         GameObject.Find("Player").GetComponent<PlayerControl>().sceneName = "ThirdFloor";
+        Debug.Log(player.transform.position);
 	}
 	
 	// Update is called once per frame

@@ -55,6 +55,11 @@ public class OVRScreenFade : MonoBehaviour
         StartCoroutine(FadeOut());
     }
 
+    public bool IsFading()
+    {
+        return isFading;
+    }
+
     public void StartFadeIn()
     {
         StartCoroutine(FadeIn());
@@ -73,7 +78,7 @@ public class OVRScreenFade : MonoBehaviour
             elapsedTime += Time.deltaTime;
             color.a = Mathf.Clamp01(elapsedTime / fadeTime);
             fadeMaterial.color = color;
-            Debug.Log(elapsedTime / fadeTime);
+            //Debug.Log(elapsedTime / fadeTime);
         }
         isFading = false;
     }
@@ -95,7 +100,7 @@ public class OVRScreenFade : MonoBehaviour
             fadeMaterial.color = color;
         }
         isFading = false;
-        Debug.Log("FadeIn completed, " + isFading);
+        //Debug.Log("FadeIn completed, " + isFading);
     }
         /*
 		float elapsedTime = 0.0f;

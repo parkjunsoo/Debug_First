@@ -9,8 +9,9 @@ public class PlayerControl : MonoBehaviour {
 
     public bool blackOut;
 
-    float gameTime;
+    public float gameTime;                 //전체 게임 시간 측정
     public float fadeTime;                 //MessageUI 씬으로 이동시 FadeOut을 위함
+    public float endingTime;               //마지막 Ending까지 시간을 측정
 
     public float movementSpeed = 2.5f;
     public float mouseSensitivity = 2f;
@@ -62,6 +63,13 @@ public class PlayerControl : MonoBehaviour {
     public string sceneName;                //쪽지함 Scene을 열 때, 쪽지함 Scene에서 다시 이동할 씬을 저장하기 위함. 쪽지함 씬을 제외한 모든 씬을 이동할 때, 트리거에서 씬 이름을 받아와서 저장. 또는 각 SceneManager 스크립트의 Start에서 저장
     public Transform sceneTransform;           //쪽지함 Scene을 열 때, 쪽지함 Scene에서 다시 이동한 후 원래 있던 위치와 Rotation을 저장하기 위함
 
+    public bool ending;
+
+    public GameObject rightArm;
+    public GameObject leftArm;
+
+    public bool isMessageScene;
+
     public void SetStartPosition(string pos)
     {
         startPosition = pos;
@@ -81,6 +89,7 @@ public class PlayerControl : MonoBehaviour {
     // Use this for initialization
     void Awake()
     {
+        isMessageScene = false;
         getBattery = false;
 
         messageUIOpened = false;
@@ -104,8 +113,11 @@ public class PlayerControl : MonoBehaviour {
         //씬에서 로드될 때의 위치와 바라보는 방향 설정
         //transform.position = GameObject.Find(startPosition).transform.position;
         //transform.Rotate(GameObject.Find(startPosition).transform.rotation.eulerAngles);
-    }
 
+        rightArm = GameObject.Find("RightArm");
+        leftArm = GameObject.Find("LeftArm");
+    }
+    
     // Update is called once per frame
     void Update()
     {
@@ -125,18 +137,30 @@ public class PlayerControl : MonoBehaviour {
         if (Input.GetKeyDown(KeyCode.Escape))
         {
             fadeTime = gameTime;
-            GameObject.Find("FadeManager").GetComponent<FadeManager>().Fade(true, 1.25f);
+            //GameObject.Find("FadeManager").GetComponent<FadeManager>().Fade(true, 1.25f);
+            Camera.main.GetComponent<OVRScreenFade>().StartFadeOut();
             isPaused = !isPaused;                           //이동을 막기 위함
             //SceneManager.LoadScene("MessageUI");            //쪽지함 Scene으로 이동
-            sceneTransform = transform;                     //현재의 위치를 저장해둠
+            if (!isMessageScene)
+            {
+                sceneTransform = transform;                     //현재의 위치를 저장해둠
+                Debug.Log(sceneTransform.position);
+            }
             messageUIOpened = true;                         //StageManager에서, 직전에 열려있던 Scene이 MessageUI 씬인지를 판별하기 위함. 이 값은 StageManager에서 false로 바꿔줌
         }
+
         if (gameTime - fadeTime >= 1.25f && fadeTime != 0)
         {
             fadeTime = 0;
             SceneManager.LoadScene("MessageUI");
         }
-        
+
+        if (ending)
+            Ending();
+
+        if (gameTime - endingTime == 2f && endingTime != 0)
+            Camera.main.GetComponent<OVRScreenFade>().StartFadeOut();
+
     }
 
     //Player의 x축, z축 움직임을 담당
@@ -186,6 +210,18 @@ public class PlayerControl : MonoBehaviour {
     void Pickup()
     {
 
+    }
+
+
+    //RightArm.x = 1.4까지, LeftArm.x = -0.65까지
+    void Ending()
+    {
+        iTween.RotateUpdate(rightArm, GameObject.Find("RightArmDestination").transform.rotation.eulerAngles, 1.2f);
+        iTween.RotateUpdate(leftArm, GameObject.Find("LeftArmDestination").transform.rotation.eulerAngles, 1.2f);
+
+        //iTween.RotateTo(rightArm, new Vector3(0f, 180f, 0f), 2f);
+        //iTween.MoveTo(rightArm, GameObject.Find("RightArmDestination").transform.localPosition, 2f);
+        //iTween.MoveTo(leftArm, GameObject.Find("LeftArmDestination").transform.localPosition, 2f);
     }
 
 }

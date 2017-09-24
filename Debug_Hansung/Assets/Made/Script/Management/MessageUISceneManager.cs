@@ -13,6 +13,7 @@ public class MessageUISceneManager : MonoBehaviour {
 	void Start () {
         Camera.main.GetComponent<OVRScreenFade>().StartFadeIn();
         player = GameObject.Find("Player").GetComponent<PlayerControl>();
+        player.isMessageScene = true;
         player.transform.position = new Vector3(0f, 1.5f, 0f);
         player.transform.rotation = Quaternion.Euler(0f, 0f, 0f);
         player.fadeTime = 0f;

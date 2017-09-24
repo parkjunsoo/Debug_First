@@ -23,6 +23,7 @@ public class StageManager : MonoBehaviour {
             player.transform.position = player.GetComponent<PlayerControl>().sceneTransform.position;
             player.transform.rotation = player.GetComponent<PlayerControl>().sceneTransform.rotation;
             player.GetComponent<PlayerControl>().messageUIOpened = false;
+            player.GetComponent<PlayerControl>().isMessageScene = false;
         }
         else
         {
