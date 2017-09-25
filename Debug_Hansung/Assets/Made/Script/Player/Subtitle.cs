@@ -15,7 +15,8 @@ public class Subtitle : MonoBehaviour {
         mesh = GetComponent<MeshRenderer>();
         subTitle = GetComponent<TextMesh>();
         subtitleText = "";
-        
+
+        Printing("Testing");
 	}
 	
 	// Update is called once per frame
@@ -23,10 +24,10 @@ public class Subtitle : MonoBehaviour {
     {
         //subTitle.color = new Color(subTitle.color.r, subTitle.color.g, subTitle.color.b, subTitle.color.a + 0.01f);
 
-        if (Input.GetKeyDown(KeyCode.Q))
-        {
-            Printing("sample");
-        }
+        //if (Input.GetKeyDown(KeyCode.Q))
+        //{
+        //    Printing("sample");
+        //}
 	}
 
     public void Printing(string text)

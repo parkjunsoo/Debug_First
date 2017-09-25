@@ -14,6 +14,7 @@ public class FirstFloorManager : StageManager {
         //player = GameObject.Find("Player");
         Camera.main.GetComponent<OVRScreenFade>().StartFadeIn();
         playerControl = player.GetComponent<PlayerControl>();
+        player.GetComponent<AudioSource>().volume = 0.7f;
 
         playerControl.sceneName = "FirstFloor";
 

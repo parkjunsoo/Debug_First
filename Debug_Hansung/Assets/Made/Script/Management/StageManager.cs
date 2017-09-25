@@ -20,10 +20,9 @@ public class StageManager : MonoBehaviour {
     {
         if (player.GetComponent<PlayerControl>().messageUIOpened)
         {
-            player.transform.position = player.GetComponent<PlayerControl>().sceneTransform.position;
-            player.transform.rotation = player.GetComponent<PlayerControl>().sceneTransform.rotation;
+            player.transform.position = GameObject.Find("MsgUIOut").transform.position;
+            Debug.Log(GameObject.Find("MsgUIOut").transform.position);
             player.GetComponent<PlayerControl>().messageUIOpened = false;
-            player.GetComponent<PlayerControl>().isMessageScene = false;
         }
         else
         {

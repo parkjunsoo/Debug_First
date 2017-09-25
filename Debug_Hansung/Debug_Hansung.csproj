@@ -272,6 +272,7 @@
     <Compile Include="Assets\Made\Script\Objects\OpenToiletDoor.cs" />
     <Compile Include="Assets\Made\Script\Objects\SecondMessage.cs" />
     <Compile Include="Assets\Made\Script\Objects\ToiletDoor.cs" />
+    <Compile Include="Assets\Made\Script\Objects\UIOutPos.cs" />
     <Compile Include="Assets\Made\Script\Player\LEDControl.cs" />
     <Compile Include="Assets\Made\Script\Player\PlayerControl.cs" />
     <Compile Include="Assets\Made\Script\Player\Subtitle.cs" />
