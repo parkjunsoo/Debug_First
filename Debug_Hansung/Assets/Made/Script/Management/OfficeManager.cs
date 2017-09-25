@@ -9,6 +9,7 @@ public class OfficeManager : StageManager {
         Camera.main.GetComponent<OVRScreenFade>().StartFadeIn();
         SetPlayerTransform("OfficeInitPosition");
         GameObject.Find("Player").GetComponent<PlayerControl>().sceneName = "Office";
+        GameObject.Find("ThunderTrigger").GetComponent<ThunderTrigger>().CurrentScene("Office");
     }
 
     // Update is called once per frame

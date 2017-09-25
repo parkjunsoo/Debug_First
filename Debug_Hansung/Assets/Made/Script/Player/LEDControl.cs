@@ -13,6 +13,8 @@ public class LEDControl : MonoBehaviour {
     float innerIntensity;
     float outerIntensity;
 
+    bool subTitle;
+
 	// Use this for initialization
 	void Start () {
         InnerLED = GameObject.Find("InnerLED").GetComponent<Light>();
@@ -30,7 +32,7 @@ public class LEDControl : MonoBehaviour {
 	// Update is called once per frame
 	void Update () {
 
-	}
+    }
     
     public void LowBatt()
     {
@@ -54,6 +56,12 @@ public class LEDControl : MonoBehaviour {
         OuterLED.enabled = true;
         InnerLED.intensity = 0.2f;
         OuterLED.intensity = 0.3f;
+        if (!subTitle)
+        {
+            yield return new WaitForSeconds(0.2f);
+            GameObject.Find("SubTitle").GetComponent<Subtitle>().Printing("배터리가 없네. 사물함에 있었던가?");
+            subTitle = true;
+        }
         yield return null;
     }
 

@@ -32,10 +32,9 @@ public class Locker : MonoBehaviour {
         if (other.name.Contains("Player") && GameObject.Find("Lock_Close").GetComponent<Lock>().isCut)
             GetComponent<cakeslice.Outline>().enabled = true;
 
-		if (Input.GetKeyDown(KeyCode.Q) && GameObject.Find("Lock_Close").GetComponent<Lock>().isCut)
+		if (Input.GetKeyDown(KeyCode.Q) && canOpen)
 		{
 			opening = true;
-
 		}
 	}
 
@@ -45,11 +44,8 @@ public class Locker : MonoBehaviour {
 			GetComponent<cakeslice.Outline>().enabled = false;
 	}
 
-
 	void Open()
 	{
 		this.transform.Rotate(0, -1f, 0);
 	}
-
-
 }

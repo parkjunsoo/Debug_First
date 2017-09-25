@@ -258,6 +258,7 @@
     <Compile Include="Assets\Made\Script\Objects\Battery.cs" />
     <Compile Include="Assets\Made\Script\Objects\BugDoor.cs" />
     <Compile Include="Assets\Made\Script\Objects\DoorLock.cs" />
+    <Compile Include="Assets\Made\Script\Objects\FirstMessage.cs" />
     <Compile Include="Assets\Made\Script\Objects\Item.cs" />
     <Compile Include="Assets\Made\Script\Objects\Key.cs" />
     <Compile Include="Assets\Made\Script\Objects\Knife.cs" />
@@ -271,6 +272,7 @@
     <Compile Include="Assets\Made\Script\Objects\OfficeLamp.cs" />
     <Compile Include="Assets\Made\Script\Objects\OpenToiletDoor.cs" />
     <Compile Include="Assets\Made\Script\Objects\SecondMessage.cs" />
+    <Compile Include="Assets\Made\Script\Objects\ThirdMessage.cs" />
     <Compile Include="Assets\Made\Script\Objects\ToiletDoor.cs" />
     <Compile Include="Assets\Made\Script\Objects\UIOutPos.cs" />
     <Compile Include="Assets\Made\Script\Player\LEDControl.cs" />

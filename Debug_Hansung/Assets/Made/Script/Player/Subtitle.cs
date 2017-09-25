@@ -23,7 +23,8 @@ public class Subtitle : MonoBehaviour {
 	void Update ()
     {
         //subTitle.color = new Color(subTitle.color.r, subTitle.color.g, subTitle.color.b, subTitle.color.a + 0.01f);
-
+        //GameObject.Find("SubtitleRot").transform.rotation = Quaternion.Euler(0f, Camera.main.transform.rotation.eulerAngles.y, 0f);
+        //Debug.Log(GameObject.Find("SubtitleRot").transform.rotation.eulerAngles.y);
         //if (Input.GetKeyDown(KeyCode.Q))
         //{
         //    Printing("sample");

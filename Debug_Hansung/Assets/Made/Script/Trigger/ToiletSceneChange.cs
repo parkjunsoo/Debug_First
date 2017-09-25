@@ -43,6 +43,10 @@ public class ToiletSceneChange : MonoBehaviour {
             //fade.Fade(true, 1.25f);
             Camera.main.GetComponent<OVRScreenFade>().StartFadeOut();
         }
+        else
+        {
+            GameObject.Find("SubTitle").GetComponent<Subtitle>().Printing("손은 씻고 나가자!");
+        }
         //player.SetStartPosition(startPos);
     }
 

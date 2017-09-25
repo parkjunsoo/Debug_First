@@ -34,12 +34,12 @@ public class PlayerControl : MonoBehaviour {
     private CharacterController cc;
 
     //-------------------------------------------
-    int layerMask;
-    LineRenderer line;
-    Ray ray = new Ray();
-    RaycastHit hit;
-    public Transform lineStart;
-    float timer = 0f;
+    //int layerMask;
+    //LineRenderer line;
+    //Ray ray = new Ray();
+    //RaycastHit hit;
+    //public Transform lineStart;
+    //float timer = 0f;
     
     //-------------------------------------------
     //각 아이템을 얻었는지 판단하는 부울 변수들 모음
@@ -129,7 +129,7 @@ public class PlayerControl : MonoBehaviour {
         //playerYAngle = new Vector3(0f, Camera.main.transform.rotation.eulerAngles.y, 0f);
         if(!isPaused)
             FPMove();
-        FPRotate();           //HMD 없이 돌려볼 때에는 주석을 해제하고 할것
+        //FPRotate();           //HMD 없이 돌려볼 때에는 주석을 해제하고 할것
         LEDOnOff();
 		if (Input.GetKeyDown(KeyCode.R)&&getBattery) //배터리 획득후 R누르면 충전 
         {
@@ -140,24 +140,12 @@ public class PlayerControl : MonoBehaviour {
 
         if (Input.GetKeyDown(KeyCode.Escape) && !messageUIOpened)
         {
-            
-            //sceneTransform.SetPositionAndRotation(new Vector3(this.transform.position.x, this.transform.position.y, this.transform.position.z),
-            //    transform.rotation);
             MsgUIOut.transform.position = transform.position;
             MsgUIOut.transform.rotation = transform.rotation;
-            //sceneTransform.position = new Vector3(this.transform.position.x, this.transform.position.y, this.transform.position.z);
-            //sceneTransform.rotation = transform.rotation;
             Debug.Log(MsgUIOut.transform.position);
             fadeTime = gameTime;
             Camera.main.GetComponent<OVRScreenFade>().StartFadeOut();
             isPaused = !isPaused;                           //이동을 막기 위함
-            //if (!isMessageScene)
-            //{
-            //    sceneTransform = transform;                     //현재의 위치를 저장해둠
-            //    Debug.Log(sceneTransform.position);
-            //}
-            //Debug.Log(sceneTransform.position);
-            //messageUIOpened = true;                         //StageManager에서, 직전에 열려있던 Scene이 MessageUI 씬인지를 판별하기 위함. 이 값은 StageManager에서 false로 바꿔줌
         }
 
         if (gameTime - fadeTime >= 1.25f && fadeTime != 0)
@@ -217,22 +205,12 @@ public class PlayerControl : MonoBehaviour {
             }
         }
     }
-
-    void Pickup()
-    {
-
-    }
-
-
+    
     //RightArm.x = 1.4까지, LeftArm.x = -0.65까지
     void Ending()
     {
         iTween.RotateUpdate(rightArm, GameObject.Find("RightArmDestination").transform.rotation.eulerAngles, 1.2f);
         iTween.RotateUpdate(leftArm, GameObject.Find("LeftArmDestination").transform.rotation.eulerAngles, 1.2f);
-
-        //iTween.RotateTo(rightArm, new Vector3(0f, 180f, 0f), 2f);
-        //iTween.MoveTo(rightArm, GameObject.Find("RightArmDestination").transform.localPosition, 2f);
-        //iTween.MoveTo(leftArm, GameObject.Find("LeftArmDestination").transform.localPosition, 2f);
     }
 
 }

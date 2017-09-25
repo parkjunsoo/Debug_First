@@ -19,7 +19,7 @@ public class ToiletOutSubtitle : MonoBehaviour {
         if (other.name.Contains("Player"))
         {
             if (other.GetComponent<PlayerControl>().GetMsgCount() == 1)
-                GameObject.Find("SubTitle").GetComponent<Subtitle>().Printing("남자친구가 사라졌다. 1층을 수색해보자");
+                GameObject.Find("SubTitle").GetComponent<Subtitle>().Printing("얘가 그새 어디갔지..");
         }
     }
 }
