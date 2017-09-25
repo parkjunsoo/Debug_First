@@ -43,7 +43,8 @@ public class NumButton : MonoBehaviour {
                     pwText.text = "PassWord : ";
                     numberPad.inputTxt = "";
                     outline.enabled = false;
-                    GameObject.Find("DoorLock").GetComponent<DoorLock>().canOpen = true;
+                    GameObject.Find("DoorLock").GetComponent<DoorLock>().SetCanOpen(true);
+
                 }
             }
             else if (number == "*")

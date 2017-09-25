@@ -30,8 +30,8 @@ public class IntroManager : MonoBehaviour {
             StartCoroutine(IntroSecond());
         }
         //Camera.main.transform.rotation = Quaternion.Euler(0f, 0f, 0f);
-        if (Input.GetKeyDown(KeyCode.Q))
-            StartCoroutine(IntroSecond());
+        //if (Input.GetKeyDown(KeyCode.Q))
+        //    StartCoroutine(IntroSecond());
 	}
 
     IEnumerator IntroFirst()

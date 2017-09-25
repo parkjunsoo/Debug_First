@@ -3,39 +3,52 @@ using System.Collections.Generic;
 using UnityEngine;
 
 public class BugDoor : MonoBehaviour {
-
-    cakeslice.Outline outline;
+    
     GameObject doorLock;
+    static bool doorOpening;
+    bool isFading;
+    PlayerControl player;
 
 	// Use this for initialization
 	void Start () {
-        outline = GetComponent<cakeslice.Outline>();
-        outline.enabled = false;
         doorLock = GameObject.Find("DoorLock");
+        player = GameObject.Find("Player").GetComponent<PlayerControl>();
 	}
 	
 	// Update is called once per frame
 	void Update () {
-		
+        if (doorOpening)
+        {
+            DoorOpen();
+            //if (isFading)
+            //{
+            //    Camera.main.GetComponent<OVRScreenFade>().StartFadeOut();
+            //    isFading = false;
+            //}
+        }
 	}
-
-    private void OnTriggerEnter(Collider other)
-    {
-        if (other.name.Contains("Player"))
-            outline.enabled = true;
-    }
+    
 
     private void OnTriggerStay(Collider other)
     {
         if(other.name.Contains("Player") && Input.GetKeyDown(KeyCode.Q))
         {
-            doorLock.GetComponent<DoorLock>().Enable();
+            if (doorLock.GetComponent<DoorLock>().GetCanOpen())
+            { 
+                doorOpening = true;
+                player.endingTime = player.gameTime;
+                //Camera.main.GetComponent<OVRScreenFade>().StartFadeOut();
+            }
         }
     }
 
-    private void OnTriggerExit(Collider other)
+    void DoorOpen()
     {
-        if (other.name.Contains("Player"))
-            outline.enabled = false;
+        if (transform.position.z < -12.3f)
+            transform.position = new Vector3(transform.position.x, transform.position.y, transform.position.z + 1f * Time.deltaTime);
+        else
+        {
+            GameObject.Find("Player").GetComponent<PlayerControl>().ending = true;
+        }
     }
 }

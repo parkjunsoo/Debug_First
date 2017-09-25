@@ -7,7 +7,7 @@ public class DoorLock : MonoBehaviour {
     GameObject numberPad;
     GameObject player;
     GameObject cursor;
-    public bool canOpen;
+    static public bool canOpen;
     cakeslice.Outline outline;
 
 	// Use this for initialization
@@ -28,6 +28,16 @@ public class DoorLock : MonoBehaviour {
 	void Update () {
 		
 	}
+
+    public bool GetCanOpen()
+    {
+        return canOpen;
+    }
+
+    public void SetCanOpen(bool open)
+    {
+        canOpen = open;
+    }
 
     private void OnTriggerEnter(Collider other)
     {

@@ -26,7 +26,8 @@ public class SceneChange : MonoBehaviour {
         time += Time.deltaTime;
         if (time - enterTime >= 1.25f && enterTime != 0)
         {
-            SceneManager.LoadScene(changeSceneName);
+            if (!Camera.main.GetComponent<OVRScreenFade>().IsFading())
+                SceneManager.LoadScene(changeSceneName);
         }
     }
 
@@ -35,7 +36,7 @@ public class SceneChange : MonoBehaviour {
         if (canChangeScene)
         {
             enterTime = time;
-            Camera.main.GetComponent<OVRScreenFade>().StartFadeOut();
+                Camera.main.GetComponent<OVRScreenFade>().StartFadeOut();
             //fade.Fade(true, 1.25f);
         }
         //player.SetStartPosition(startPos);

@@ -34,7 +34,8 @@ public class BeforeStartSceneManager : MonoBehaviour {
         if (time - fadeTime >= 1.5f && fadeTime != 0)
         {
             player.GetComponent<PlayerControl>().isPaused = false;
-            UnityEngine.SceneManagement.SceneManager.LoadScene("FirstFloor");
+            if(!Camera.main.GetComponent<OVRScreenFade>().IsFading())
+                UnityEngine.SceneManagement.SceneManager.LoadScene("FirstFloor");
         }
     }
 }
