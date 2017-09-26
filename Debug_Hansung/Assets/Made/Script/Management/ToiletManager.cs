@@ -7,9 +7,9 @@ public class ToiletManager : StageManager {
     float time;
     public GameObject LampGroup;
     bool isFadein;
-
+    //1.8,-0.2,-1.3
     // Use this for initialization
-    void Awake () {
+    void Start () {
         player = GameObject.Find("Player");
         SetPlayerTransform("InitPosition");
         player.GetComponent<PlayerControl>().sceneName = "Toilet";

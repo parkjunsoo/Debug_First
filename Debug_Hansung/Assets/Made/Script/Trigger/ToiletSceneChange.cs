@@ -37,13 +37,13 @@ public class ToiletSceneChange : MonoBehaviour {
 
     private void OnTriggerEnter(Collider other)
     {
-        if (canChangeScene)
+        if (canChangeScene && other.name.Contains("Player"))
         {
             enterTime = time;
             //fade.Fade(true, 1.25f);
             Camera.main.GetComponent<OVRScreenFade>().StartFadeOut();
         }
-        else
+        else if(!canChangeScene)
         {
             GameObject.Find("SubTitle").GetComponent<Subtitle>().Printing("손은 씻고 나가자!");
         }
