@@ -37,6 +37,7 @@ public class BugDoor : MonoBehaviour {
             { 
                 doorOpening = true;
                 player.endingTime = player.gameTime;
+                player.end = player.gameTime;
                 //Camera.main.GetComponent<OVRScreenFade>().StartFadeOut();
             }
         }
