@@ -1,4 +1,8 @@
 sceneSetups:
+<<<<<<< HEAD
 - path: Assets/Made/Scene/SecondFloor.unity
+=======
+- path: Assets/Made/Scene/Toilet.unity
+>>>>>>> ad3703f9ba0ce5c6b387643eedd1a60f7af0ef54
   isLoaded: 1
   isActive: 1

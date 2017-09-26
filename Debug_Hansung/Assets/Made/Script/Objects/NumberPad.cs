@@ -29,13 +29,14 @@ public class NumberPad : MonoBehaviour {
             CursorMoving();
         else
             cursor.GetComponent<cakeslice.Outline>().enabled = false;
+        //Debug.Log(cursor.transform.position.z);
     }
 
     void CursorMoving()
     {
-        if (Input.GetAxis("Horizontal") > 0 && cursor.transform.position.z < -9.47f)
+        if (Input.GetAxis("Horizontal") > 0 && cursor.transform.position.z < -3.47f)
             cursor.transform.position = new Vector3(cursor.transform.position.x, cursor.transform.position.y, cursor.transform.position.z + cursorSpeed * Time.deltaTime);
-        else if (Input.GetAxis("Horizontal") < 0 && cursor.transform.position.z > -10.8f)
+        else if (Input.GetAxis("Horizontal") < 0 && cursor.transform.position.z > -4.8f)
             cursor.transform.position = new Vector3(cursor.transform.position.x, cursor.transform.position.y, cursor.transform.position.z - cursorSpeed * Time.deltaTime);
 
         if (Input.GetAxis("Vertical") > 0 && cursor.transform.position.y < 3.6f)

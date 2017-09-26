@@ -32,3 +32,9 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Made/Scene/BeforeStartScene.unity
     guid: 09616b67872747b4db5bd7c8c1941dc1
+  - enabled: 0
+    path: Assets/Made/Scene/Ending.unity
+    guid: 84c3b9f7d0b02ac46ac9f84c76d9b7d0
+  - enabled: 1
+    path: Assets/Made/Scene/End.unity
+    guid: ba29db00979fa2449a295dc0dedb8ac6

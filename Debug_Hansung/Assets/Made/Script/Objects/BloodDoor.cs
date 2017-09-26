@@ -8,7 +8,6 @@ public class BloodDoor : MonoBehaviour {
 		GetComponent<MeshRenderer> ().enabled = false;
 		GetComponent<MeshCollider> ().enabled = false;
 		GetComponent<cakeslice.Outline>().enabled = false;
-		GetComponent<Material> ().color = new Color (1.0f,0,0);
 	}
 
 	public void EnableMesh(){

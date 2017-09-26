@@ -8,6 +8,7 @@ public class Subtitle : MonoBehaviour {
     TextMesh subTitle;
     string subtitleText;
     MeshRenderer mesh;
+    bool isPrinting;
 
 	// Use this for initialization
 	void Start () {
@@ -16,7 +17,7 @@ public class Subtitle : MonoBehaviour {
         subTitle = GetComponent<TextMesh>();
         subtitleText = "";
 
-        Printing("Testing");
+        //Printing("Testing");
 	}
 	
 	// Update is called once per frame
@@ -39,25 +40,29 @@ public class Subtitle : MonoBehaviour {
     IEnumerator Print(string txt)
     {
         subTitle.text = txt;
-
-        while (subTitle.color.a < 1.0f)
+        if (!isPrinting)
         {
-            subTitle.color = new Color(subTitle.color.r, subTitle.color.g, subTitle.color.b, subTitle.color.a + 0.1f);
-            //newSubtitle.color = new Color(newSubtitle.color.r, newSubtitle.color.g, newSubtitle.color.b, newSubtitle.color.a + 0.2f);
-            //Debug.Log(subTitle.color.a);
-            yield return new WaitForSeconds(0.1f);
-        }
-        //Debug.Log("break");
-        yield return new WaitForSeconds(2f);
+            isPrinting = true;
+            while (subTitle.color.a < 1.0f)
+            {
+                subTitle.color = new Color(subTitle.color.r, subTitle.color.g, subTitle.color.b, subTitle.color.a + 0.1f);
+                newSubtitle.color = new Color(newSubtitle.color.r, newSubtitle.color.g, newSubtitle.color.b, newSubtitle.color.a + 0.1f);
+                //Debug.Log(subTitle.color.a);
+                yield return new WaitForSeconds(0.05f);
+            }
 
-        while(subTitle.color.a > 0f)
-        {
-            subTitle.color = new Color(subTitle.color.r, subTitle.color.g, subTitle.color.b, subTitle.color.a - 0.1f);
-            //newSubtitle.color = new Color(newSubtitle.color.r, newSubtitle.color.g, newSubtitle.color.b, newSubtitle.color.a - 0.2f);
-            //Debug.Log(subTitle.color.a);
-            yield return new WaitForSeconds(0.1f);
-        }
+            //Debug.Log("break");
+            yield return new WaitForSeconds(1.5f);
 
+            while (subTitle.color.a > 0f)
+            {
+                subTitle.color = new Color(subTitle.color.r, subTitle.color.g, subTitle.color.b, subTitle.color.a - 0.1f);
+                newSubtitle.color = new Color(newSubtitle.color.r, newSubtitle.color.g, newSubtitle.color.b, newSubtitle.color.a - 0.1f);
+                //Debug.Log(subTitle.color.a);
+                yield return new WaitForSeconds(0.05f);
+            }
+            isPrinting = false;
+        }
         yield return null;
     }
 

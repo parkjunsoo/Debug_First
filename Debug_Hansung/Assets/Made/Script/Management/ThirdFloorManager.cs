@@ -8,8 +8,11 @@ public class ThirdFloorManager : StageManager {
 	void Start () {
         SetPlayerTransform("InitPosition");
         Camera.main.GetComponent<OVRScreenFade>().StartFadeIn();
-        GameObject.Find("Player").GetComponent<PlayerControl>().sceneName = "ThirdFloor";
-        Debug.Log(player.transform.position);
+        player.GetComponent<PlayerControl>().sceneName = "ThirdFloor";
+
+        if (player.GetComponent<PlayerControl>().GetMsgCount() >= 4)
+            GameObject.Find("LastMessage").GetComponent<LastMessage>().Enable();
+        //Debug.Log(player.transform.position);
 	}
 	
 	// Update is called once per frame

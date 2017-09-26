@@ -8,6 +8,7 @@ public class Battery : MonoBehaviour {
 
 	void Start () {
 		GetComponent<cakeslice.Outline>().enabled = false;
+        GetComponent<BoxCollider>().enabled = false;
         player = GameObject.Find("Player");
 	}
 
@@ -36,7 +37,7 @@ public class Battery : MonoBehaviour {
                 other.GetComponent<PlayerControl>().getBattery = true;                 //player.GetComponent ~~~로 했더니 잘 되다가 갑자기 에러나서 바꿈. 뭐여 씨벌
                 player.GetComponent<LEDControl>().InnerLED.intensity = 0.7f;
                 player.GetComponent<LEDControl>().OuterLED.intensity = 1.0f;
-                Debug.Log("Destroy");
+                //Debug.Log("Destroy");
                 Destroy(this.gameObject);
             }
 		}

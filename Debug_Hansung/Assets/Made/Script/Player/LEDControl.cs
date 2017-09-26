@@ -46,16 +46,16 @@ public class LEDControl : MonoBehaviour {
         {
             //InnerLED.intensity -= Random.Range(0.05f, 0.1f);
             //OuterLED.intensity -= Random.Range(0.05f, 0.1f);
-            InnerLED.intensity = 0.2f;
-            OuterLED.intensity = 0.3f;
+            InnerLED.intensity = 0.1f;
+            OuterLED.intensity = 0.15f;
             InnerLED.enabled = !InnerLED.enabled;
             OuterLED.enabled = !OuterLED.enabled;
             yield return new WaitForSeconds(0.015f);
         }
         InnerLED.enabled = true;
         OuterLED.enabled = true;
-        InnerLED.intensity = 0.2f;
-        OuterLED.intensity = 0.3f;
+        InnerLED.intensity = 0.1f;
+        OuterLED.intensity = 0.15f;
         if (!subTitle)
         {
             yield return new WaitForSeconds(0.2f);

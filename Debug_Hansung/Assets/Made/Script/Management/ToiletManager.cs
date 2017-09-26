@@ -21,11 +21,12 @@ public class ToiletManager : StageManager {
 	// Update is called once per frame
 	void Update () {
         time += Time.deltaTime;
-        if(time >= 8.0f && !isFadein)
+        if (time >= 8.0f && !isFadein)
         {
             LampGroup.SetActive(true);
             Camera.main.GetComponent<OVRScreenFade>().StartFadeIn();
             player.GetComponent<PlayerControl>().isPaused = false;
+            player.GetComponent<PlayerControl>().isGameBegin = true;
             isFadein = true;
         }
 	}
