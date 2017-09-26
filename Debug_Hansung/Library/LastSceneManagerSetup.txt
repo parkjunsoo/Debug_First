@@ -1,26 +1,4 @@
 sceneSetups:
-<<<<<<< HEAD
 - path: Assets/Made/Scene/SecondFloor.unity
-=======
-<<<<<<< HEAD
-- path: Assets/Made/Scene/305.unity
-=======
-<<<<<<< HEAD
-- path: Assets/Made/Scene/305.unity
-=======
-- path: Assets/Made/Scene/SecondFloor.unity
-<<<<<<< HEAD
-=======
-=======
-<<<<<<< HEAD
-- path: Assets/Made/Scene/SecondFloor.unity
-=======
-- path: Assets/Made/Scene/Toilet.unity
->>>>>>> ad3703f9ba0ce5c6b387643eedd1a60f7af0ef54
->>>>>>> 23f457e59364e8aba7f3cc4f399eabff132e262e
->>>>>>> e1e09848cde983bb10505d43b67d52e7c6b53340
->>>>>>> fdfe8888ff8fe48b292ae6341dbb47e803b43c96
->>>>>>> 94cef88907a83ad7b5d686fbcb8da45dcfb6543b
->>>>>>> 3fa070319614efa3d6cff5271696770ab6be584d
   isLoaded: 1
   isActive: 1

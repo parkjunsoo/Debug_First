@@ -258,7 +258,6 @@
     <Compile Include="Assets\Made\Script\Management\ToiletFadeManager.cs" />
     <Compile Include="Assets\Made\Script\Management\ToiletManager.cs" />
     <Compile Include="Assets\Made\Script\Objects\Battery.cs" />
-    <Compile Include="Assets\Made\Script\Objects\BloodDoor.cs" />
     <Compile Include="Assets\Made\Script\Objects\BugDoor.cs" />
     <Compile Include="Assets\Made\Script\Objects\DoorLock.cs" />
     <Compile Include="Assets\Made\Script\Objects\FirstMessage.cs" />
@@ -301,7 +300,6 @@
     <Compile Include="Assets\Made\Script\Trigger\UptoSecondFloor.cs" />
     <Compile Include="Assets\Made\Script\Trigger\UptoThirdFloor.cs" />
     <Compile Include="Assets\Made\Script\Trigger\VoiceTrigger.cs" />
-    <Compile Include="Assets\sihoon\Door.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\Assets\OSPNative\LICENSE.txt" />
