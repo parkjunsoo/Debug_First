@@ -9,6 +9,7 @@ public class Locker : MonoBehaviour {
 	// Use this for initialization
 	void Start () {
 		GetComponent<cakeslice.Outline>().enabled = false;
+        GetComponent<BoxCollider>().enabled = false;
 	}
 
 	//y값 기준으로 -0.9까지
@@ -35,6 +36,7 @@ public class Locker : MonoBehaviour {
 		if (Input.GetKeyDown(KeyCode.Q) && canOpen)
 		{
 			opening = true;
+            GameObject.Find("Battery").GetComponent<BoxCollider>().enabled = true;
 		}
 	}
 

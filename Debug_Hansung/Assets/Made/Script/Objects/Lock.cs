@@ -28,6 +28,7 @@ public class Lock : MonoBehaviour {
 		GetComponent<MeshFilter>().mesh = GameObject.Find("Lock_Open").GetComponent<MeshFilter>().mesh;
 		GetComponent<Rigidbody>().useGravity = true;
         GameObject.Find("OpeningLocker").GetComponent<Locker>().canOpen = true;
+        GameObject.Find("OpeningLocker").GetComponent<BoxCollider>().enabled = true;
 		//GetComponent<cakeslice.Outline>().enabled = false;
 	}
 

@@ -12,6 +12,7 @@ public class PlayerControl : MonoBehaviour {
     public float gameTime;                 //전체 게임 시간 측정
     public float fadeTime;                 //MessageUI 씬으로 이동시 FadeOut을 위함
     public float endingTime;               //마지막 Ending까지 시간을 측정
+    public float end;
 
     public float movementSpeed = 2.5f;
     public float mouseSensitivity = 2f;
@@ -64,6 +65,7 @@ public class PlayerControl : MonoBehaviour {
     public Transform sceneTransform;           //쪽지함 Scene을 열 때, 쪽지함 Scene에서 다시 이동한 후 원래 있던 위치와 Rotation을 저장하기 위함
 
     public bool ending;
+    public bool isGameBegin;
 
     public GameObject rightArm;
     public GameObject leftArm;
@@ -129,14 +131,11 @@ public class PlayerControl : MonoBehaviour {
         //playerYAngle = new Vector3(0f, Camera.main.transform.rotation.eulerAngles.y, 0f);
         if(!isPaused)
             FPMove();
-        //FPRotate();           //HMD 없이 돌려볼 때에는 주석을 해제하고 할것
+        FPRotate();           //HMD 없이 돌려볼 때에는 주석을 해제하고 할것
+        if (isGameBegin)
         LEDOnOff();
-		if (Input.GetKeyDown(KeyCode.R)&&getBattery) //배터리 획득후 R누르면 충전 
-        {
-            InnerLight.intensity = GetComponent<LEDControl>().inner;
-            OuterLight.intensity = GetComponent<LEDControl>().outer;
-        }
-
+		if (Input.GetKeyDown(KeyCode.R)&&getBattery) //배터리 획득후 R누르면 충전        
+            LEDOnOff();
 
         if (Input.GetKeyDown(KeyCode.Escape) && !messageUIOpened)
         {
@@ -147,6 +146,12 @@ public class PlayerControl : MonoBehaviour {
             Camera.main.GetComponent<OVRScreenFade>().StartFadeOut();
             isPaused = !isPaused;                           //이동을 막기 위함
         }
+        
+		//if (Input.GetKeyDown(KeyCode.R)&&getBattery) //배터리 획득후 R누르면 충전 
+  //      {
+  //          InnerLight.intensity = GetComponent<LEDControl>().inner;
+  //          OuterLight.intensity = GetComponent<LEDControl>().outer;
+  //      }
 
         if (gameTime - fadeTime >= 1.25f && fadeTime != 0)
         {
@@ -157,8 +162,19 @@ public class PlayerControl : MonoBehaviour {
         if (ending)
             Ending();
 
-        if (gameTime - endingTime == 2f && endingTime != 0)
+        if (gameTime - endingTime >= 1f && endingTime != 0)
+        {
             Camera.main.GetComponent<OVRScreenFade>().StartFadeOut();
+            endingTime = 0f;
+        }
+        if (gameTime - end >= 1.5f && end != 0)
+        {
+            end = 0f;
+            transform.position = GameObject.Find("EndingPosition").transform.position;
+            GameObject.Find("EndingPosition").GetComponent<AudioSource>().Play();
+            rightArm.GetComponent<MeshRenderer>().enabled = false;
+            leftArm.GetComponent<MeshRenderer>().enabled = false;
+        }
 
     }
 
@@ -209,8 +225,8 @@ public class PlayerControl : MonoBehaviour {
     //RightArm.x = 1.4까지, LeftArm.x = -0.65까지
     void Ending()
     {
-        iTween.RotateUpdate(rightArm, GameObject.Find("RightArmDestination").transform.rotation.eulerAngles, 1.2f);
-        iTween.RotateUpdate(leftArm, GameObject.Find("LeftArmDestination").transform.rotation.eulerAngles, 1.2f);
+        iTween.RotateUpdate(rightArm, GameObject.Find("RightArmDestination").transform.rotation.eulerAngles, 2f);
+        iTween.RotateUpdate(leftArm, GameObject.Find("LeftArmDestination").transform.rotation.eulerAngles, 2f);
     }
 
 }

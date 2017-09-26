@@ -7,7 +7,8 @@ public class IntoToilet : SceneChange {
 	// Use this for initialization
 	void Start () {
         changeSceneName = "Toilet";
-        canChangeScene = true;
+        if(player.GetComponent<PlayerControl>().GetMsgCount() < 1)
+            canChangeScene = true;
         //startPos = "ToiletInitPosition";
 	}
 }
