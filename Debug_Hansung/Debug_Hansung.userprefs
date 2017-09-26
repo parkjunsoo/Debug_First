@@ -1,15 +1,16 @@
 ﻿<Properties StartupItem="Assembly-CSharp.csproj">
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Unity.Instance.Unity Editor" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Made\Script\Management\MessageUISceneManager.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Made\Script\Objects\PlusNoteBook.cs">
     <Files>
-      <File FileName="Assets\Made\Script\Trigger\UptoSecondFloor.cs" Line="20" Column="1" />
-      <File FileName="Assets\Made\Script\Management\FirstFloorManager.cs" Line="11" Column="32" />
+      <File FileName="Assets\Made\Script\Trigger\UptoSecondFloor.cs" Line="1" Column="1" />
+      <File FileName="Assets\Made\Script\Management\FirstFloorManager.cs" Line="1" Column="1" />
       <File FileName="Assets\Made\Script\Objects\Message.cs" Line="1" Column="1" />
       <File FileName="Assets\Made\Script\Player\PlayerControl.cs" Line="1" Column="1" />
       <File FileName="Assets\Made\Script\Trigger\IntoOffice.cs" Line="1" Column="1" />
       <File FileName="Assets\Made\Script\Trigger\IntoToilet.cs" Line="1" Column="1" />
       <File FileName="Assets\Made\Script\Management\BeforeStartSceneManager.cs" Line="1" Column="1" />
       <File FileName="Assets\Made\Script\Management\MessageUISceneManager.cs" Line="1" Column="1" />
+      <File FileName="Assets\Made\Script\Objects\PlusNoteBook.cs" Line="10" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
