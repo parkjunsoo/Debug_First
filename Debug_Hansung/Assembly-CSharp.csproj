@@ -230,6 +230,7 @@
      <Compile Include="Assets\Made\Script\Management\ToiletFadeManager.cs" />
      <Compile Include="Assets\Made\Script\Management\ToiletManager.cs" />
      <Compile Include="Assets\Made\Script\Objects\Battery.cs" />
+     <Compile Include="Assets\Made\Script\Objects\BloodDoor.cs" />
      <Compile Include="Assets\Made\Script\Objects\BugDoor.cs" />
      <Compile Include="Assets\Made\Script\Objects\DoorLock.cs" />
      <Compile Include="Assets\Made\Script\Objects\FirstMessage.cs" />
@@ -269,6 +270,7 @@
      <Compile Include="Assets\Made\Script\Trigger\ToiletSceneChange.cs" />
      <Compile Include="Assets\Made\Script\Trigger\UptoSecondFloor.cs" />
      <Compile Include="Assets\Made\Script\Trigger\UptoThirdFloor.cs" />
+     <Compile Include="Assets\sihoon\Door.cs" />
      <None Include="Assets\Assets\OvrAvatar\Content\Materials\AvatarMaterialStateShader.cginc" />
      <None Include="Assets\Assets\OSPNative\THIRD_PARTY_NOTICES.txt" />
      <None Include="Assets\Assets\OculusPlatform\THIRD_PARTY_NOTICES.txt" />
