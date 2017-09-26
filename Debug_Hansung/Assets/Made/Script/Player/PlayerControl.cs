@@ -12,7 +12,6 @@ public class PlayerControl : MonoBehaviour {
     public float gameTime;                 //전체 게임 시간 측정
     public float fadeTime;                 //MessageUI 씬으로 이동시 FadeOut을 위함
     public float endingTime;               //마지막 Ending까지 시간을 측정
-    public float end;
 
     public float movementSpeed = 2.5f;
     public float mouseSensitivity = 2f;
@@ -131,22 +130,33 @@ public class PlayerControl : MonoBehaviour {
         //playerYAngle = new Vector3(0f, Camera.main.transform.rotation.eulerAngles.y, 0f);
         if(!isPaused)
             FPMove();
+<<<<<<< HEAD
+<<<<<<< HEAD
+        //FPRotate();           //HMD 없이 돌려볼 때에는 주석을 해제하고 할것
+=======
         FPRotate();           //HMD 없이 돌려볼 때에는 주석을 해제하고 할것
+<<<<<<< HEAD
+>>>>>>> parent of ad3703f... 0926Commit
+=======
+        FPRotate();           //HMD 없이 돌려볼 때에는 주석을 해제하고 할것
+>>>>>>> a48b0dba321b52fe2db2222e9223fb0cd7242cd8
         if (isGameBegin)
+=======
         LEDOnOff();
-		if (Input.GetKeyDown(KeyCode.R)&&getBattery) //배터리 획득후 R누르면 충전        
-            LEDOnOff();
-
-        if (Input.GetKeyDown(KeyCode.Escape) && !messageUIOpened)
+		if (Input.GetKeyDown(KeyCode.R)&&getBattery) //배터리 획득후 R누르면 충전 
+>>>>>>> 18efd8c5331c34cd23669bbd888946da42cfb5c1
         {
-            MsgUIOut.transform.position = transform.position;
-            MsgUIOut.transform.rotation = transform.rotation;
-            Debug.Log(MsgUIOut.transform.position);
-            fadeTime = gameTime;
-            Camera.main.GetComponent<OVRScreenFade>().StartFadeOut();
-            isPaused = !isPaused;                           //이동을 막기 위함
+            LEDOnOff();
+            if (Input.GetKeyDown(KeyCode.Escape) && !messageUIOpened)
+            {
+                MsgUIOut.transform.position = transform.position;
+                MsgUIOut.transform.rotation = transform.rotation;
+                Debug.Log(MsgUIOut.transform.position);
+                fadeTime = gameTime;
+                Camera.main.GetComponent<OVRScreenFade>().StartFadeOut();
+                isPaused = !isPaused;                           //이동을 막기 위함
+            }
         }
-        
 		//if (Input.GetKeyDown(KeyCode.R)&&getBattery) //배터리 획득후 R누르면 충전 
   //      {
   //          InnerLight.intensity = GetComponent<LEDControl>().inner;
@@ -162,20 +172,9 @@ public class PlayerControl : MonoBehaviour {
         if (ending)
             Ending();
 
-        if (gameTime - endingTime >= 1f && endingTime != 0)
-        {
+        if (gameTime - endingTime == 2f && endingTime != 0)
             Camera.main.GetComponent<OVRScreenFade>().StartFadeOut();
-            endingTime = 0f;
-        }
-        if (gameTime - end >= 1.5f && end != 0)
-        {
-            end = 0f;
-            transform.position = GameObject.Find("EndingPosition").transform.position;
-            GameObject.Find("EndingPosition").GetComponent<AudioSource>().Play();
-            rightArm.GetComponent<MeshRenderer>().enabled = false;
-            leftArm.GetComponent<MeshRenderer>().enabled = false;
-        }
-
+        
     }
 
     //Player의 x축, z축 움직임을 담당
