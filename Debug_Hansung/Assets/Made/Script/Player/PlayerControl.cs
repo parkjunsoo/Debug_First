@@ -130,21 +130,11 @@ public class PlayerControl : MonoBehaviour {
         //playerYAngle = new Vector3(0f, Camera.main.transform.rotation.eulerAngles.y, 0f);
         if(!isPaused)
             FPMove();
-<<<<<<< HEAD
-<<<<<<< HEAD
-        //FPRotate();           //HMD 없이 돌려볼 때에는 주석을 해제하고 할것
-=======
         FPRotate();           //HMD 없이 돌려볼 때에는 주석을 해제하고 할것
-<<<<<<< HEAD
->>>>>>> parent of ad3703f... 0926Commit
-=======
-        FPRotate();           //HMD 없이 돌려볼 때에는 주석을 해제하고 할것
->>>>>>> a48b0dba321b52fe2db2222e9223fb0cd7242cd8
         if (isGameBegin)
-=======
-        LEDOnOff();
+        	LEDOnOff();
 		if (Input.GetKeyDown(KeyCode.R)&&getBattery) //배터리 획득후 R누르면 충전 
->>>>>>> 18efd8c5331c34cd23669bbd888946da42cfb5c1
+
         {
             LEDOnOff();
             if (Input.GetKeyDown(KeyCode.Escape) && !messageUIOpened)
