@@ -44,11 +44,17 @@ public class BugDoor : MonoBehaviour {
 
     void DoorOpen()
     {
+        if (transform.rotation.eulerAngles.y <= 90)
+            transform.rotation = Quaternion.Euler(transform.rotation.eulerAngles.x, transform.rotation.eulerAngles.y + 5.0f, transform.rotation.eulerAngles.z);
+        else
+            GameObject.Find("Player").GetComponent<PlayerControl>().ending = true;
+        /*
         if (transform.position.z < -12.3f)
             transform.position = new Vector3(transform.position.x, transform.position.y, transform.position.z + 1f * Time.deltaTime);
         else
         {
             GameObject.Find("Player").GetComponent<PlayerControl>().ending = true;
         }
+        */
     }
 }
