@@ -131,7 +131,12 @@ public class PlayerControl : MonoBehaviour {
         if(!isPaused)
             FPMove();
         FPRotate();           //HMD 없이 돌려볼 때에는 주석을 해제하고 할것
+<<<<<<< HEAD
         if (isGameBegin)
+=======
+        LEDOnOff();
+		if (Input.GetKeyDown(KeyCode.R)&&getBattery) //배터리 획득후 R누르면 충전 
+>>>>>>> 18efd8c5331c34cd23669bbd888946da42cfb5c1
         {
             LEDOnOff();
             if (Input.GetKeyDown(KeyCode.Escape) && !messageUIOpened)
