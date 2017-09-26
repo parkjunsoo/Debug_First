@@ -131,11 +131,15 @@ public class PlayerControl : MonoBehaviour {
         if(!isPaused)
             FPMove();
 <<<<<<< HEAD
+<<<<<<< HEAD
         //FPRotate();           //HMD 없이 돌려볼 때에는 주석을 해제하고 할것
 =======
         FPRotate();           //HMD 없이 돌려볼 때에는 주석을 해제하고 할것
 <<<<<<< HEAD
 >>>>>>> parent of ad3703f... 0926Commit
+=======
+        FPRotate();           //HMD 없이 돌려볼 때에는 주석을 해제하고 할것
+>>>>>>> a48b0dba321b52fe2db2222e9223fb0cd7242cd8
         if (isGameBegin)
 =======
         LEDOnOff();

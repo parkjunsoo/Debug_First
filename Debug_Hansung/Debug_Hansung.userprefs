@@ -1,6 +1,6 @@
-﻿<Properties StartupItem="Debug_Hansung.csproj">
+﻿<Properties StartupItem="Assembly-CSharp.csproj">
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Unity.Instance.Unity Editor" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Made\Script\Objects\BloodDoor.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Made\Script\Objects\PlusNoteBook.cs">
     <Files>
       <File FileName="Assets\Made\Script\Trigger\UptoSecondFloor.cs" Line="1" Column="1" />
       <File FileName="Assets\Made\Script\Management\FirstFloorManager.cs" Line="1" Column="1" />
@@ -10,15 +10,7 @@
       <File FileName="Assets\Made\Script\Trigger\IntoToilet.cs" Line="1" Column="1" />
       <File FileName="Assets\Made\Script\Management\BeforeStartSceneManager.cs" Line="1" Column="1" />
       <File FileName="Assets\Made\Script\Management\MessageUISceneManager.cs" Line="1" Column="1" />
-      <File FileName="Assets\Made\Script\Objects\PlusNoteBook.cs" Line="1" Column="1" />
-      <File FileName="Assets\Made\Script\Objects\ThirdMessage.cs" Line="17" Column="1" />
-      <File FileName="Assets\Made\Script\Objects\SecondMessage.cs" Line="12" Column="54" />
-      <File FileName="Assets\Made\Script\Objects\FirstMessage.cs" Line="1" Column="1" />
-      <File FileName="Assets\Made\Script\Objects\Lock.cs" Line="1" Column="1" />
-      <File FileName="Assets\Made\Script\Objects\Battery.cs" Line="42" Column="5" />
-      <File FileName="Assets\sihoon\Door.cs" Line="11" Column="3" />
-      <File FileName="Assets\Assets\OutlineEffect\Outline.cs" Line="1" Column="1" />
-      <File FileName="Assets\Made\Script\Objects\BloodDoor.cs" Line="9" Column="49" />
+      <File FileName="Assets\Made\Script\Objects\PlusNoteBook.cs" Line="10" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>

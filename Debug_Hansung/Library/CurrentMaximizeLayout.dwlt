@@ -21,6 +21,7 @@ MonoBehaviour:
     y: 30
     width: 1920
 <<<<<<< HEAD
+<<<<<<< HEAD
     height: 942
   m_MinSize: {x: 817, y: 492}
   m_MaxSize: {x: 22012, y: 14042}
@@ -33,6 +34,13 @@ MonoBehaviour:
   vertical: 0
   controlID: 4784
 >>>>>>> parent of ad3703f... 0926Commit
+=======
+    height: 947
+  m_MinSize: {x: 817, y: 492}
+  m_MaxSize: {x: 22012, y: 14042}
+  vertical: 0
+  controlID: 9312
+>>>>>>> a48b0dba321b52fe2db2222e9223fb0cd7242cd8
 --- !u!114 &2
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -57,6 +65,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
 <<<<<<< HEAD
+<<<<<<< HEAD
     y: 580
     width: 603
     height: 438
@@ -65,6 +74,11 @@ MonoBehaviour:
     width: 788
     height: 381
 >>>>>>> parent of ad3703f... 0926Commit
+=======
+    y: 667
+    width: 734
+    height: 351
+>>>>>>> a48b0dba321b52fe2db2222e9223fb0cd7242cd8
   m_MaximizeOnPlay: 1
   m_Gizmos: 0
   m_Stats: 0
@@ -73,6 +87,7 @@ MonoBehaviour:
   m_ZoomArea:
     m_HRangeLocked: 0
     m_VRangeLocked: 0
+<<<<<<< HEAD
 <<<<<<< HEAD
     m_HBaseRangeMin: -301.5
     m_HBaseRangeMax: 301.5
@@ -84,6 +99,12 @@ MonoBehaviour:
     m_VBaseRangeMin: -182
     m_VBaseRangeMax: 182
 >>>>>>> parent of ad3703f... 0926Commit
+=======
+    m_HBaseRangeMin: -367
+    m_HBaseRangeMax: 367
+    m_VBaseRangeMin: -167
+    m_VBaseRangeMax: 167
+>>>>>>> a48b0dba321b52fe2db2222e9223fb0cd7242cd8
     m_HAllowExceedBaseRangeMin: 1
     m_HAllowExceedBaseRangeMax: 1
     m_VAllowExceedBaseRangeMin: 1
@@ -101,6 +122,7 @@ MonoBehaviour:
       x: 0
       y: 17
 <<<<<<< HEAD
+<<<<<<< HEAD
       width: 603
       height: 421
     m_Scale: {x: 1, y: 1}
@@ -111,12 +133,19 @@ MonoBehaviour:
     m_Scale: {x: 1, y: 1}
     m_Translation: {x: 394, y: 182}
 >>>>>>> parent of ad3703f... 0926Commit
+=======
+      width: 734
+      height: 334
+    m_Scale: {x: 1, y: 1}
+    m_Translation: {x: 367, y: 167}
+>>>>>>> a48b0dba321b52fe2db2222e9223fb0cd7242cd8
     m_MarginLeft: 0
     m_MarginRight: 0
     m_MarginTop: 0
     m_MarginBottom: 0
     m_LastShownAreaInsideMargins:
       serializedVersion: 2
+<<<<<<< HEAD
 <<<<<<< HEAD
       x: -301.5
       y: -210.5
@@ -128,15 +157,25 @@ MonoBehaviour:
       width: 788
       height: 364
 >>>>>>> parent of ad3703f... 0926Commit
+=======
+      x: -367
+      y: -167
+      width: 734
+      height: 334
+>>>>>>> a48b0dba321b52fe2db2222e9223fb0cd7242cd8
     m_MinimalGUI: 1
   m_defaultScale: 1
   m_TargetTexture: {fileID: 0}
   m_CurrentColorSpace: 0
 <<<<<<< HEAD
+<<<<<<< HEAD
   m_LastWindowPixelSize: {x: 603, y: 438}
 =======
   m_LastWindowPixelSize: {x: 788, y: 381}
 >>>>>>> parent of ad3703f... 0926Commit
+=======
+  m_LastWindowPixelSize: {x: 734, y: 351}
+>>>>>>> a48b0dba321b52fe2db2222e9223fb0cd7242cd8
   m_ClearInEditMode: 1
   m_NoCameraWarning: 1
   m_LowResolutionForAspectRatios: 01000000000100000100
@@ -159,6 +198,7 @@ MonoBehaviour:
     x: 0
     y: 0
 <<<<<<< HEAD
+<<<<<<< HEAD
     width: 908
     height: 942
   m_MinSize: {x: 306, y: 442}
@@ -173,6 +213,14 @@ MonoBehaviour:
   vertical: 1
   controlID: 4785
 >>>>>>> parent of ad3703f... 0926Commit
+=======
+    width: 1104
+    height: 947
+  m_MinSize: {x: 306, y: 442}
+  m_MaxSize: {x: 8006, y: 8042}
+  vertical: 1
+  controlID: 9290
+>>>>>>> a48b0dba321b52fe2db2222e9223fb0cd7242cd8
 --- !u!114 &4
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -190,8 +238,13 @@ MonoBehaviour:
     x: 0
     y: 0
 <<<<<<< HEAD
+<<<<<<< HEAD
     width: 908
     height: 483
+=======
+    width: 1104
+    height: 575
+>>>>>>> a48b0dba321b52fe2db2222e9223fb0cd7242cd8
   m_MinSize: {x: 202, y: 221}
   m_MaxSize: {x: 4002, y: 4021}
 =======
@@ -230,6 +283,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
 <<<<<<< HEAD
+<<<<<<< HEAD
     y: 97
     width: 906
     height: 462
@@ -242,10 +296,18 @@ MonoBehaviour:
   m_SceneLighting: 1
   lastFramingTime: 2864.4215314845183
 >>>>>>> parent of ad3703f... 0926Commit
+=======
+    y: 92
+    width: 1102
+    height: 554
+  m_SceneLighting: 1
+  lastFramingTime: 5051.440443018333
+>>>>>>> a48b0dba321b52fe2db2222e9223fb0cd7242cd8
   m_2DMode: 0
   m_isRotationLocked: 0
   m_AudioPlay: 0
   m_Position:
+<<<<<<< HEAD
 <<<<<<< HEAD
     m_Target: {x: -6.804725, y: 2.0489914, z: -33.40943}
     speed: 2
@@ -255,6 +317,11 @@ MonoBehaviour:
     speed: 2
     m_Value: {x: -4.935893, y: 2.6883378, z: -4.4373884}
 >>>>>>> parent of ad3703f... 0926Commit
+=======
+    m_Target: {x: 2.318, y: 0.61803293, z: -1.3346813}
+    speed: 2
+    m_Value: {x: 2.318, y: 0.61803293, z: -1.3346813}
+>>>>>>> a48b0dba321b52fe2db2222e9223fb0cd7242cd8
   m_RenderMode: 0
   m_ValidateTrueMetals: 0
   m_SceneViewState:
@@ -278,12 +345,17 @@ MonoBehaviour:
       m_Value: 0
   m_Rotation:
 <<<<<<< HEAD
+<<<<<<< HEAD
     m_Target: {x: -0.039177068, y: 0.95827574, z: -0.1613491, w: -0.23267841}
+=======
+    m_Target: {x: 0.11610613, y: -0.772941, z: 0.1481068, w: 0.6059257}
+>>>>>>> a48b0dba321b52fe2db2222e9223fb0cd7242cd8
     speed: 2
-    m_Value: {x: -0.039177068, y: 0.95827574, z: -0.1613491, w: -0.23267841}
+    m_Value: {x: 0.11610613, y: -0.772941, z: 0.1481068, w: 0.6059257}
   m_Size:
-    m_Target: 11.518833
+    m_Target: 3.730446
     speed: 2
+<<<<<<< HEAD
     m_Value: 11.518833
 =======
     m_Target: {x: -0.10367503, y: 0.51799643, z: -0.06342209, w: -0.8467047}
@@ -294,15 +366,22 @@ MonoBehaviour:
     speed: 2
     m_Value: 3.4416585
 >>>>>>> parent of ad3703f... 0926Commit
+=======
+    m_Value: 3.730446
+>>>>>>> a48b0dba321b52fe2db2222e9223fb0cd7242cd8
   m_Ortho:
     m_Target: 0
     speed: 2
     m_Value: 0
 <<<<<<< HEAD
+<<<<<<< HEAD
   m_LastSceneViewRotation: {x: 0, y: 0, z: 0, w: 0}
 =======
   m_LastSceneViewRotation: {x: -0.29693493, y: 0.4045174, z: -0.14073592, w: -0.8534569}
 >>>>>>> parent of ad3703f... 0926Commit
+=======
+  m_LastSceneViewRotation: {x: -0.27956057, y: 0.054695483, z: -0.01595355, w: -0.9584362}
+>>>>>>> a48b0dba321b52fe2db2222e9223fb0cd7242cd8
   m_LastSceneViewOrtho: 0
   m_ReplacementShader: {fileID: 0}
   m_ReplacementString: 
@@ -352,13 +431,19 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
 <<<<<<< HEAD
+<<<<<<< HEAD
     y: 483
     width: 908
     height: 459
+=======
+    y: 575
+    width: 1104
+    height: 372
+>>>>>>> a48b0dba321b52fe2db2222e9223fb0cd7242cd8
   m_MinSize: {x: 306, y: 221}
   m_MaxSize: {x: 8006, y: 4021}
   vertical: 0
-  controlID: 933
+  controlID: 9291
 --- !u!114 &7
 =======
     y: 545
@@ -386,6 +471,7 @@ MonoBehaviour:
     x: 0
     y: 0
 <<<<<<< HEAD
+<<<<<<< HEAD
     width: 605
     height: 459
 =======
@@ -394,6 +480,12 @@ MonoBehaviour:
 >>>>>>> parent of ad3703f... 0926Commit
   m_MinSize: {x: 202, y: 221}
   m_MaxSize: {x: 4002, y: 4021}
+=======
+    width: 736
+    height: 372
+  m_MinSize: {x: 200, y: 200}
+  m_MaxSize: {x: 4000, y: 4000}
+>>>>>>> a48b0dba321b52fe2db2222e9223fb0cd7242cd8
   m_ActualView: {fileID: 2}
   m_Panes:
   - {fileID: 2}
@@ -414,12 +506,16 @@ MonoBehaviour:
   m_Position:
     serializedVersion: 2
 <<<<<<< HEAD
+<<<<<<< HEAD
     x: 605
+=======
+    x: 736
+>>>>>>> a48b0dba321b52fe2db2222e9223fb0cd7242cd8
     y: 0
-    width: 303
-    height: 459
-  m_MinSize: {x: 104, y: 121}
-  m_MaxSize: {x: 4004, y: 4021}
+    width: 368
+    height: 372
+  m_MinSize: {x: 100, y: 100}
+  m_MaxSize: {x: 4000, y: 4000}
   m_ActualView: {fileID: 9}
 =======
     x: 790
@@ -457,10 +553,17 @@ MonoBehaviour:
   m_Pos:
     serializedVersion: 2
 <<<<<<< HEAD
+<<<<<<< HEAD
     x: 607
     y: 580
     width: 299
     height: 438
+=======
+    x: 738
+    y: 667
+    width: 364
+    height: 351
+>>>>>>> a48b0dba321b52fe2db2222e9223fb0cd7242cd8
 --- !u!114 &10
 =======
     x: 792
@@ -485,14 +588,18 @@ MonoBehaviour:
   m_Position:
     serializedVersion: 2
 <<<<<<< HEAD
+<<<<<<< HEAD
     x: 908
+=======
+    x: 1104
+>>>>>>> a48b0dba321b52fe2db2222e9223fb0cd7242cd8
     y: 0
-    width: 445
-    height: 942
+    width: 361
+    height: 947
   m_MinSize: {x: 234, y: 492}
   m_MaxSize: {x: 10004, y: 14042}
   vertical: 1
-  controlID: 306
+  controlID: 9313
 --- !u!114 &11
 =======
     x: 1132
@@ -521,10 +628,17 @@ MonoBehaviour:
     x: 0
     y: 0
 <<<<<<< HEAD
+<<<<<<< HEAD
     width: 445
     height: 628
   m_MinSize: {x: 204, y: 221}
   m_MaxSize: {x: 4004, y: 4021}
+=======
+    width: 361
+    height: 519
+  m_MinSize: {x: 200, y: 200}
+  m_MaxSize: {x: 4000, y: 4000}
+>>>>>>> a48b0dba321b52fe2db2222e9223fb0cd7242cd8
   m_ActualView: {fileID: 12}
 =======
     width: 356
@@ -560,6 +674,7 @@ MonoBehaviour:
   m_Pos:
     serializedVersion: 2
 <<<<<<< HEAD
+<<<<<<< HEAD
     x: 910
     y: 97
     width: 441
@@ -580,6 +695,17 @@ MonoBehaviour:
     m_LastClickedID: -100090
     m_ExpandedIDs: a888fbff5089fbffe2adfdff0479feff8c7bfeff1afcffff000000000abb000032bb0000bcbb0000
 >>>>>>> parent of ad3703f... 0926Commit
+=======
+    x: 1106
+    y: 92
+    width: 357
+    height: 498
+  m_TreeViewState:
+    scrollPos: {x: 0, y: 0}
+    m_SelectedIDs: 5e050100
+    m_LastClickedID: 66910
+    m_ExpandedIDs: 100aefff6810efff3a00f0ff7c01f0ff82d1f4ff2090ffff5690ffff2891ffff9c91ffff3cb1ffff1afcffff00000000a65b0000ea5b00000e5c00007e5c0000
+>>>>>>> a48b0dba321b52fe2db2222e9223fb0cd7242cd8
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -598,11 +724,16 @@ MonoBehaviour:
       m_ClientGUIView: {fileID: 12}
     m_SearchString: 
 <<<<<<< HEAD
+<<<<<<< HEAD
   m_ExpandedScenes: []
 =======
   m_ExpandedScenes:
   - Office
 >>>>>>> parent of ad3703f... 0926Commit
+=======
+  m_ExpandedScenes:
+  - ThirdFloor
+>>>>>>> a48b0dba321b52fe2db2222e9223fb0cd7242cd8
   m_CurrenRootInstanceID: 0
   m_Locked: 0
   m_CurrentSortingName: TransformSorting
@@ -622,11 +753,19 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
 <<<<<<< HEAD
+<<<<<<< HEAD
     y: 628
     width: 445
     height: 314
   m_MinSize: {x: 234, y: 271}
   m_MaxSize: {x: 10004, y: 10021}
+=======
+    y: 519
+    width: 361
+    height: 428
+  m_MinSize: {x: 230, y: 250}
+  m_MaxSize: {x: 10000, y: 10000}
+>>>>>>> a48b0dba321b52fe2db2222e9223fb0cd7242cd8
   m_ActualView: {fileID: 14}
 =======
     y: 516
@@ -663,6 +802,7 @@ MonoBehaviour:
   m_Pos:
     serializedVersion: 2
 <<<<<<< HEAD
+<<<<<<< HEAD
     x: 910
     y: 725
     width: 441
@@ -673,8 +813,14 @@ MonoBehaviour:
     width: 352
     height: 410
 >>>>>>> parent of ad3703f... 0926Commit
+=======
+    x: 1106
+    y: 611
+    width: 357
+    height: 407
+>>>>>>> a48b0dba321b52fe2db2222e9223fb0cd7242cd8
   m_SearchFilter:
-    m_NameFilter: intro
+    m_NameFilter: 
     m_ClassNames: []
     m_AssetLabels: []
     m_AssetBundleNames: []
@@ -685,15 +831,16 @@ MonoBehaviour:
     m_ShowAllHits: 0
     m_SearchArea: 0
     m_Folders:
-    - Assets/Made/Script/Objects
+    - Assets/Made/Prefabs/Stage
   m_ViewMode: 1
   m_StartGridSize: 16
   m_LastFolders:
-  - Assets/Made/Script/Objects
+  - Assets/Made/Prefabs/Stage
   m_LastFoldersGridSize: 16
-  m_LastProjectPath: C:\Users\kskk9\Desktop\GitHub\Debug_First\Debug_Hansung
+  m_LastProjectPath: D:\UnityProjects\Debug_Hansung\Debug_First\Debug_Hansung
   m_IsLocked: 0
   m_FolderTreeState:
+<<<<<<< HEAD
 <<<<<<< HEAD
     scrollPos: {x: 0, y: 60}
     m_SelectedIDs: 
@@ -705,6 +852,12 @@ MonoBehaviour:
     m_LastClickedID: 17620
     m_ExpandedIDs: 000000001e28000056280000e82900004e2a0000962a000082310000c2310000c831000090440000fe440000424600009e6b000000ca9a3bffffff7f
 >>>>>>> parent of ad3703f... 0926Commit
+=======
+    scrollPos: {x: 0, y: 142}
+    m_SelectedIDs: b42c0000
+    m_LastClickedID: 11444
+    m_ExpandedIDs: 0000000028280000702a0000022c00006a2c0000b42c000068360000ae360000b4360000da4a00004a4b0000a24e00001055000000ca9a3bffffff7f
+>>>>>>> a48b0dba321b52fe2db2222e9223fb0cd7242cd8
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -733,10 +886,14 @@ MonoBehaviour:
     m_SelectedIDs: 
     m_LastClickedID: 0
 <<<<<<< HEAD
+<<<<<<< HEAD
     m_ExpandedIDs: 00000000a6290000322c0000c42d0000ce2d00002a2e00006a380000ae380000cc4c0000ce4c00003a4d00008e50000082510000ffffff7f
 =======
     m_ExpandedIDs: 000000001e28000056280000e82900004e2a0000962a000082310000c2310000c831000090440000fe440000424600009e6b000000ca9a3bffffff7f
 >>>>>>> parent of ad3703f... 0926Commit
+=======
+    m_ExpandedIDs: 0000000028280000702a0000022c00006a2c0000b42c000068360000ae360000b4360000da4a00004a4b0000a24e00001055000000ca9a3bffffff7f
+>>>>>>> a48b0dba321b52fe2db2222e9223fb0cd7242cd8
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -762,6 +919,7 @@ MonoBehaviour:
       m_ResourceFile: 
   m_ListAreaState:
 <<<<<<< HEAD
+<<<<<<< HEAD
     m_SelectedInstanceIDs: ec2d0000
     m_LastClickedInstanceID: 11756
     m_HadKeyboardFocusLastEvent: 1
@@ -772,6 +930,12 @@ MonoBehaviour:
     m_HadKeyboardFocusLastEvent: 1
     m_ExpandedInstanceIDs: d24d0000d04d00001837000028370000e04d0000de4d000000000000
 >>>>>>> parent of ad3703f... 0926Commit
+=======
+    m_SelectedInstanceIDs: 5e050100
+    m_LastClickedInstanceID: 66910
+    m_HadKeyboardFocusLastEvent: 1
+    m_ExpandedInstanceIDs: 04330000fe2b0000
+>>>>>>> a48b0dba321b52fe2db2222e9223fb0cd7242cd8
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -788,10 +952,14 @@ MonoBehaviour:
       m_OriginalEventType: 11
       m_IsRenamingFilename: 1
 <<<<<<< HEAD
+<<<<<<< HEAD
       m_ClientGUIView: {fileID: 0}
 =======
       m_ClientGUIView: {fileID: 14}
 >>>>>>> parent of ad3703f... 0926Commit
+=======
+      m_ClientGUIView: {fileID: 13}
+>>>>>>> a48b0dba321b52fe2db2222e9223fb0cd7242cd8
     m_CreateAssetUtility:
       m_EndAction: {fileID: 0}
       m_InstanceID: 0
@@ -802,7 +970,11 @@ MonoBehaviour:
     m_ScrollPosition: {x: 0, y: 0}
     m_GridSize: 16
 <<<<<<< HEAD
+<<<<<<< HEAD
   m_DirectoriesAreaWidth: 218
+=======
+  m_DirectoriesAreaWidth: 157
+>>>>>>> a48b0dba321b52fe2db2222e9223fb0cd7242cd8
 --- !u!114 &15
 =======
   m_DirectoriesAreaWidth: 163
@@ -822,12 +994,16 @@ MonoBehaviour:
   m_Position:
     serializedVersion: 2
 <<<<<<< HEAD
+<<<<<<< HEAD
     x: 1353
+=======
+    x: 1465
+>>>>>>> a48b0dba321b52fe2db2222e9223fb0cd7242cd8
     y: 0
-    width: 567
-    height: 942
-  m_MinSize: {x: 277, y: 71}
-  m_MaxSize: {x: 4002, y: 4021}
+    width: 455
+    height: 947
+  m_MinSize: {x: 275, y: 50}
+  m_MaxSize: {x: 4000, y: 4000}
   m_ActualView: {fileID: 16}
 =======
     x: 1488
@@ -865,6 +1041,7 @@ MonoBehaviour:
   m_Pos:
     serializedVersion: 2
 <<<<<<< HEAD
+<<<<<<< HEAD
     x: 1355
     y: 97
     width: 565
@@ -875,6 +1052,12 @@ MonoBehaviour:
     width: 430
     height: 926
 >>>>>>> parent of ad3703f... 0926Commit
+=======
+    x: 1467
+    y: 92
+    width: 453
+    height: 926
+>>>>>>> a48b0dba321b52fe2db2222e9223fb0cd7242cd8
   m_ScrollPosition: {x: 0, y: 0}
   m_InspectorMode: 0
   m_PreviewResizer:

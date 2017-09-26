@@ -230,7 +230,6 @@
      <Compile Include="Assets\Made\Script\Management\ToiletFadeManager.cs" />
      <Compile Include="Assets\Made\Script\Management\ToiletManager.cs" />
      <Compile Include="Assets\Made\Script\Objects\Battery.cs" />
-     <Compile Include="Assets\Made\Script\Objects\BloodDoor.cs" />
      <Compile Include="Assets\Made\Script\Objects\BugDoor.cs" />
      <Compile Include="Assets\Made\Script\Objects\DoorLock.cs" />
      <Compile Include="Assets\Made\Script\Objects\FirstMessage.cs" />
@@ -238,7 +237,6 @@
      <Compile Include="Assets\Made\Script\Objects\Key.cs" />
      <Compile Include="Assets\Made\Script\Objects\Knife.cs" />
      <Compile Include="Assets\Made\Script\Objects\Lamp.cs" />
-     <Compile Include="Assets\Made\Script\Objects\LastMessage.cs" />
      <Compile Include="Assets\Made\Script\Objects\Lock.cs" />
      <Compile Include="Assets\Made\Script\Objects\Locker.cs" />
      <Compile Include="Assets\Made\Script\Objects\Message.cs" />
@@ -263,7 +261,6 @@
      <Compile Include="Assets\Made\Script\Trigger\DowntoSecondFloor.cs" />
      <Compile Include="Assets\Made\Script\Trigger\ExitOffice.cs" />
      <Compile Include="Assets\Made\Script\Trigger\ExitToilet.cs" />
-     <Compile Include="Assets\Made\Script\Trigger\Into305.cs" />
      <Compile Include="Assets\Made\Script\Trigger\IntoOffice.cs" />
      <Compile Include="Assets\Made\Script\Trigger\IntoToilet.cs" />
      <Compile Include="Assets\Made\Script\Trigger\SceneChange.cs" />
@@ -272,8 +269,6 @@
      <Compile Include="Assets\Made\Script\Trigger\ToiletSceneChange.cs" />
      <Compile Include="Assets\Made\Script\Trigger\UptoSecondFloor.cs" />
      <Compile Include="Assets\Made\Script\Trigger\UptoThirdFloor.cs" />
-     <Compile Include="Assets\Made\Script\Trigger\VoiceTrigger.cs" />
-     <Compile Include="Assets\sihoon\Door.cs" />
      <None Include="Assets\Assets\OvrAvatar\Content\Materials\AvatarMaterialStateShader.cginc" />
      <None Include="Assets\Assets\OSPNative\THIRD_PARTY_NOTICES.txt" />
      <None Include="Assets\Assets\OculusPlatform\THIRD_PARTY_NOTICES.txt" />

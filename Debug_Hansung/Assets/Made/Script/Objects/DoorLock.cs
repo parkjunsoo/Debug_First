@@ -16,7 +16,7 @@ public class DoorLock : MonoBehaviour {
         cursor = GameObject.Find("Cursor");
         player = GameObject.Find("Player");
         numberPad = GameObject.Find("NumberPad");
-        GetComponent<BoxCollider>().enabled = false;
+        //GetComponent<BoxCollider>().enabled = false;
         /*
         numberPad.GetComponent<MeshRenderer>().enabled = false;
         foreach (MeshRenderer mesh in numberPad.GetComponentsInChildren<MeshRenderer>())
@@ -43,7 +43,7 @@ public class DoorLock : MonoBehaviour {
     private void OnTriggerEnter(Collider other)
     {
         if(other.name.Contains("Player"))
-            if(other.GetComponent<PlayerControl>().GetMsgCount() >= 3)
+            //if(other.GetComponent<PlayerControl>().GetMsgCount() >= 3)
                 outline.enabled = true;
     }
 
