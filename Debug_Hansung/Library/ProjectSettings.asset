@@ -4,11 +4,7 @@
 PlayerSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 12
-<<<<<<< HEAD
   productGUID: 78a0867a077161b4993c2743be60c3ef
-=======
-  productGUID: 04f37990a6fcf114a9113594d3a27edd
->>>>>>> deae02f53e9d1b8c4624be500a070c297b60b4da
   AndroidProfiler: 0
   defaultScreenOrientation: 4
   targetDevice: 2
@@ -144,12 +140,8 @@ PlayerSettings:
   useHDRDisplay: 0
   targetPixelDensity: 0
   resolutionScalingMode: 0
-<<<<<<< HEAD
   applicationIdentifier:
     Standalone: com.oculus.UnitySample
-=======
-  applicationIdentifier: {}
->>>>>>> deae02f53e9d1b8c4624be500a070c297b60b4da
   buildNumber: {}
   AndroidBundleVersionCode: 1
   AndroidMinSdkVersion: 16
@@ -239,16 +231,12 @@ PlayerSettings:
   m_BuildTargetIcons: []
   m_BuildTargetBatching: []
   m_BuildTargetGraphicsAPIs: []
-<<<<<<< HEAD
   m_BuildTargetVRSettings:
   - m_BuildTarget: Standalone
     m_Enabled: 1
     m_Devices:
     - Oculus
     - OpenVR
-=======
-  m_BuildTargetVRSettings: []
->>>>>>> deae02f53e9d1b8c4624be500a070c297b60b4da
   openGLRequireES31: 0
   openGLRequireES31AEP: 0
   webPlayerTemplate: APPLICATION:Default
@@ -601,7 +589,6 @@ PlayerSettings:
     daydream:
       daydreamIconForeground: {fileID: 0}
       daydreamIconBackground: {fileID: 0}
-<<<<<<< HEAD
   cloudServicesEnabled:
     UNet: 1
   facebookSdkVersion: 7.9.4
@@ -609,14 +596,6 @@ PlayerSettings:
   cloudProjectId: 402ea377-dbe3-494d-a901-a5f3a41bebe1
   projectName: Debug_Hansung
   organizationId: junsoo92
-=======
-  cloudServicesEnabled: {}
-  facebookSdkVersion: 7.9.4
-  apiCompatibilityLevel: 2
-  cloudProjectId: 
-  projectName: 
-  organizationId: 
->>>>>>> deae02f53e9d1b8c4624be500a070c297b60b4da
   cloudEnabled: 0
   enableNativePlatformBackendsForNewInputSystem: 0
   disableOldInputManagerSupport: 0
