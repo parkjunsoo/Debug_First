@@ -91,7 +91,11 @@ MonoBehaviour:
   m_MinSize: {x: 917, y: 442}
   m_MaxSize: {x: 22012, y: 10021}
   vertical: 0
+<<<<<<< HEAD
   controlID: 178
+=======
+  controlID: 187
+>>>>>>> parent of 2b1f215... trial
 --- !u!114 &5
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -135,7 +139,11 @@ MonoBehaviour:
   m_MinSize: {x: 202, y: 442}
   m_MaxSize: {x: 4002, y: 8042}
   vertical: 1
+<<<<<<< HEAD
   controlID: 156
+=======
+  controlID: 188
+>>>>>>> parent of 2b1f215... trial
 --- !u!114 &7
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -289,9 +297,15 @@ MonoBehaviour:
     height: 842
   m_TreeViewState:
     scrollPos: {x: 0, y: 0}
+<<<<<<< HEAD
     m_SelectedIDs: e6e5ffff
     m_LastClickedID: -6682
     m_ExpandedIDs: 5ee6ffffbaf3ffffd8f5ffff54f7ffff00000000
+=======
+    m_SelectedIDs: b85f000038c1feff2a60000016600000fcbcfefffe5f000040c1feff4c600000f05f0000da5f0000c05f000078c2feff3c600000e0c1feff
+    m_LastClickedID: -81440
+    m_ExpandedIDs: 7ac2feff2ac9feff00000000
+>>>>>>> parent of 2b1f215... trial
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -310,7 +324,7 @@ MonoBehaviour:
       m_ClientGUIView: {fileID: 0}
     m_SearchString: 
   m_ExpandedScenes:
-  - SecondFloor
+  - FirstFloor
   m_CurrenRootInstanceID: 0
   m_Locked: 0
   m_CurrentSortingName: TransformSorting
@@ -395,9 +409,15 @@ MonoBehaviour:
   m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
+<<<<<<< HEAD
     m_SelectedIDs: 242d0000
     m_LastClickedID: 11556
     m_ExpandedIDs: 0000000068280000042b0000962c0000a02c0000fe2c0000242d00002a3c00009c4100009c5900009e5900001a5a0000725d0000845e000000ca9a3bffffff7f
+=======
+    m_SelectedIDs: 602d0000
+    m_LastClickedID: 11616
+    m_ExpandedIDs: 00000000a8280000422b0000d42c0000de2c00003c2d0000602d0000663c0000d841000010560000125600008c560000e4590000f25a000000ca9a3bffffff7f
+>>>>>>> parent of 2b1f215... trial
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -425,7 +445,11 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
+<<<<<<< HEAD
     m_ExpandedIDs: 0000000068280000042b0000962c0000a02c0000fe2c0000242d00002a3c00009c4100009c5900009e5900001a5a0000725d0000845e000000ca9a3bffffff7f
+=======
+    m_ExpandedIDs: 00000000a8280000422b0000d42c0000de2c00003c2d0000602d0000663c0000d841000010560000125600008c560000e4590000f25a000000ca9a3bffffff7f
+>>>>>>> parent of 2b1f215... trial
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -456,20 +480,24 @@ MonoBehaviour:
     m_ExpandedInstanceIDs: 
     m_RenameOverlay:
       m_UserAcceptedRename: 0
-      m_Name: 
-      m_OriginalName: 
+      m_Name: FirstFloor
+      m_OriginalName: FirstFloor
       m_EditFieldRect:
         serializedVersion: 2
         x: 0
         y: 0
         width: 0
         height: 0
-      m_UserData: 0
+      m_UserData: 15510
       m_IsWaitingForDelay: 0
       m_IsRenaming: 0
-      m_OriginalEventType: 11
+      m_OriginalEventType: 0
       m_IsRenamingFilename: 1
+<<<<<<< HEAD
       m_ClientGUIView: {fileID: 0}
+=======
+      m_ClientGUIView: {fileID: 8}
+>>>>>>> parent of 2b1f215... trial
     m_CreateAssetUtility:
       m_EndAction: {fileID: 0}
       m_InstanceID: 0
@@ -588,9 +616,15 @@ MonoBehaviour:
   m_isRotationLocked: 0
   m_AudioPlay: 0
   m_Position:
+<<<<<<< HEAD
     m_Target: {x: -4.1764855, y: 0.41301867, z: -1.0208364}
     speed: 2
     m_Value: {x: -4.1764855, y: 0.41301867, z: -1.0208364}
+=======
+    m_Target: {x: 0.9769786, y: 19.462036, z: 5.6373906}
+    speed: 2
+    m_Value: {x: 0.9769786, y: 19.462036, z: 5.6373906}
+>>>>>>> parent of 2b1f215... trial
   m_RenderMode: 0
   m_ValidateTrueMetals: 0
   m_SceneViewState:
@@ -613,9 +647,15 @@ MonoBehaviour:
       speed: 2
       m_Value: 0
   m_Rotation:
+<<<<<<< HEAD
     m_Target: {x: -0.038241014, y: 0.9591037, z: -0.15853101, w: -0.23135622}
     speed: 2
     m_Value: {x: -0.038241014, y: 0.9591037, z: -0.15853101, w: -0.23135622}
+=======
+    m_Target: {x: -0.039195016, y: 0.9198709, z: -0.3784511, w: -0.09526835}
+    speed: 2
+    m_Value: {x: -0.039195016, y: 0.9198709, z: -0.3784511, w: -0.09526835}
+>>>>>>> parent of 2b1f215... trial
   m_Size:
     m_Target: 10
     speed: 2
