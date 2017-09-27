@@ -1,4 +1,8 @@
 sceneSetups:
+<<<<<<< HEAD
 - path: Assets/Made/Scene/FirstFloor.unity
+=======
+- path: Assets/Made/Scene/SecondFloor.unity
+>>>>>>> parent of 3ed77ec... 1
   isLoaded: 1
   isActive: 1
