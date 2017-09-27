@@ -4,6 +4,7 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
+<<<<<<< HEAD
   m_Scenes:
   - enabled: 1
     path: Assets/Made/Scene/Intro.unity
@@ -32,3 +33,6 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Made/Scene/BeforeStartScene.unity
     guid: 09616b67872747b4db5bd7c8c1941dc1
+=======
+  m_Scenes: []
+>>>>>>> 53dfd33907fecc169cd3c6602533df1b1b47d2db
