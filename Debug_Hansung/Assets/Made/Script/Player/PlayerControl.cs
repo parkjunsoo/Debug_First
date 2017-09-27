@@ -127,6 +127,8 @@ public class PlayerControl : MonoBehaviour {
     // Update is called once per frame
     void Update()
     {
+        if (Input.GetKeyDown("joystick button 1"))
+            Debug.Log("clicked");
         gameTime += Time.deltaTime;
         //playerYAngle = new Vector3(0f, Camera.main.transform.rotation.eulerAngles.y, 0f);
         if(!isPaused)
