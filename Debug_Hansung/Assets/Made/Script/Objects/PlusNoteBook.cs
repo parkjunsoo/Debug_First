@@ -8,7 +8,7 @@ public class PlusNoteBook : MonoBehaviour {
 	void Start () {
 		GetComponent<MeshRenderer> ().enabled = false;
 		GetComponent<MeshCollider> ().enabled = false;
-		GetComponent<cakeslice.Outline>().enabled = false;
+		//GetComponent<cakeslice.Outline>().enabled = false;
 	}
 
 	public void EnableMesh(){
