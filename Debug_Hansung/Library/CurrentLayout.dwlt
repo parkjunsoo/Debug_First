@@ -20,7 +20,7 @@ MonoBehaviour:
   m_ShowMode: 4
   m_Title: 
   m_RootView: {fileID: 4}
-  m_MinSize: {x: 950, y: 492}
+  m_MinSize: {x: 950, y: 300}
   m_MaxSize: {x: 10000, y: 10000}
 --- !u!114 &2
 MonoBehaviour:
@@ -92,7 +92,7 @@ MonoBehaviour:
     y: 0
     width: 1920
     height: 997
-  m_MinSize: {x: 950, y: 492}
+  m_MinSize: {x: 950, y: 300}
   m_MaxSize: {x: 10000, y: 10000}
 --- !u!114 &5
 MonoBehaviour:
@@ -364,9 +364,9 @@ MonoBehaviour:
     height: 926
   m_TreeViewState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: 125a0000
+    m_SelectedIDs: a02c0000
     m_LastClickedID: 0
-    m_ExpandedIDs: eaf5ffff12faffff1afcffff00000000
+    m_ExpandedIDs: 10eeffff54faffff1afcffff00000000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -385,7 +385,7 @@ MonoBehaviour:
       m_ClientGUIView: {fileID: 0}
     m_SearchString: 
   m_ExpandedScenes:
-  - SecondFloor
+  - ThirdFloor
   m_CurrenRootInstanceID: 0
   m_Locked: 0
   m_CurrentSortingName: TransformSorting
@@ -531,15 +531,15 @@ MonoBehaviour:
     m_ExpandedInstanceIDs: 
     m_RenameOverlay:
       m_UserAcceptedRename: 0
-      m_Name: SecondFloor
-      m_OriginalName: SecondFloor
+      m_Name: ThirdFloor
+      m_OriginalName: ThirdFloor
       m_EditFieldRect:
         serializedVersion: 2
         x: 0
         y: 0
         width: 0
         height: 0
-      m_UserData: 23058
+      m_UserData: 11424
       m_IsWaitingForDelay: 0
       m_IsRenaming: 0
       m_OriginalEventType: 0
@@ -663,9 +663,9 @@ MonoBehaviour:
   m_isRotationLocked: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: -31.138105, y: 6.51762, z: 3.486297}
+    m_Target: {x: -7.6342654, y: 2.1498032, z: 4.6627164}
     speed: 2
-    m_Value: {x: -31.138105, y: 6.51762, z: 3.486297}
+    m_Value: {x: -7.6342654, y: 2.1498032, z: 4.6627164}
   m_RenderMode: 0
   m_ValidateTrueMetals: 0
   m_SceneViewState:
@@ -688,9 +688,9 @@ MonoBehaviour:
       speed: 2
       m_Value: 0
   m_Rotation:
-    m_Target: {x: 0.25970733, y: -0.02519807, z: 0.006778891, w: 0.96533483}
+    m_Target: {x: -0.08829373, y: 0.6519341, z: -0.076831706, w: -0.74918836}
     speed: 2
-    m_Value: {x: -0.25970736, y: 0.02519807, z: -0.0067788917, w: -0.9653349}
+    m_Value: {x: -0.088293724, y: 0.651934, z: -0.0768317, w: -0.7491883}
   m_Size:
     m_Target: 4.53193
     speed: 2
