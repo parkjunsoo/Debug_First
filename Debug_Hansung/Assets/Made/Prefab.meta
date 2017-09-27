@@ -1,7 +1,11 @@
 fileFormatVersion: 2
 guid: a440863addcc65743b24095de624f453
 folderAsset: yes
+<<<<<<< HEAD
 timeCreated: 1506509843
+=======
+timeCreated: 1506438828
+>>>>>>> parent of 814d7d3... Merge branch 'master' of https://github.com/parkjunsoo/Debug_First
 licenseType: Free
 DefaultImporter:
   userData: 
