@@ -1,4 +1,8 @@
 sceneSetups:
+<<<<<<< HEAD
 - path: Assets/Made/Scene/SecondFloor.unity
+=======
+- path: Assets/Made/Scene/305.unity
+>>>>>>> 3c632084e4739ed4be317a53640a1cf1e49d4adb
   isLoaded: 1
   isActive: 1
