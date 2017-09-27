@@ -1,4 +1,4 @@
 sceneSetups:
-- path: Assets/Made/Scene/Office.unity
+- path: Assets/Made/Scene/SecondFloor.unity
   isLoaded: 1
   isActive: 1
