@@ -24,6 +24,7 @@ MonoBehaviour:
 <<<<<<< HEAD
     height: 942
 <<<<<<< HEAD
+<<<<<<< HEAD
   m_MinSize: {x: 817, y: 492}
   m_MaxSize: {x: 22012, y: 14042}
   vertical: 0
@@ -50,6 +51,11 @@ MonoBehaviour:
   m_MinSize: {x: 817, y: 492}
   m_MaxSize: {x: 22012, y: 14042}
   vertical: 0
+=======
+  m_MinSize: {x: 817, y: 492}
+  m_MaxSize: {x: 22012, y: 14042}
+  vertical: 0
+>>>>>>> parent of 3ed77ec... 1
   controlID: 271
 =======
     height: 947
@@ -65,6 +71,9 @@ MonoBehaviour:
   vertical: 0
   controlID: 9312
 >>>>>>> a48b0dba321b52fe2db2222e9223fb0cd7242cd8
+<<<<<<< HEAD
+>>>>>>> parent of 3ed77ec... 1
+=======
 >>>>>>> parent of 3ed77ec... 1
 --- !u!114 &2
 MonoBehaviour:
@@ -226,6 +235,7 @@ MonoBehaviour:
 <<<<<<< HEAD
     width: 908
     height: 942
+<<<<<<< HEAD
   m_MinSize: {x: 306, y: 442}
   m_MaxSize: {x: 8006, y: 8042}
   vertical: 1
@@ -242,6 +252,18 @@ MonoBehaviour:
   m_MinSize: {x: 306, y: 442}
   m_MaxSize: {x: 8006, y: 8042}
   vertical: 1
+=======
+  m_MinSize: {x: 306, y: 442}
+  m_MaxSize: {x: 8006, y: 8042}
+  vertical: 1
+  controlID: 932
+=======
+    width: 1132
+    height: 947
+  m_MinSize: {x: 306, y: 442}
+  m_MaxSize: {x: 8006, y: 8042}
+  vertical: 1
+>>>>>>> parent of 3ed77ec... 1
   controlID: 4785
 >>>>>>> parent of ad3703f... 0926Commit
 =======
@@ -253,7 +275,10 @@ MonoBehaviour:
   controlID: 9290
 >>>>>>> a48b0dba321b52fe2db2222e9223fb0cd7242cd8
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 26d5ecb9536ba4a6433abee18951cc4131f9b123
+=======
+>>>>>>> parent of 3ed77ec... 1
 =======
 >>>>>>> parent of 3ed77ec... 1
 --- !u!114 &4
@@ -274,6 +299,7 @@ MonoBehaviour:
     y: 0
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     width: 1192
     height: 705
   m_MinSize: {x: 200, y: 200}
@@ -283,6 +309,8 @@ MonoBehaviour:
 =======
 >>>>>>> parent of 3ed77ec... 1
 <<<<<<< HEAD
+=======
+>>>>>>> parent of 3ed77ec... 1
     width: 908
     height: 483
 =======
@@ -298,7 +326,10 @@ MonoBehaviour:
   m_MaxSize: {x: 4000, y: 4000}
 >>>>>>> parent of ad3703f... 0926Commit
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 26d5ecb9536ba4a6433abee18951cc4131f9b123
+=======
+>>>>>>> parent of 3ed77ec... 1
 =======
 >>>>>>> parent of 3ed77ec... 1
   m_ActualView: {fileID: 5}
@@ -341,6 +372,7 @@ MonoBehaviour:
     y: 92
     width: 1130
     height: 524
+<<<<<<< HEAD
   m_SceneLighting: 1
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -361,10 +393,23 @@ MonoBehaviour:
 >>>>>>> 26d5ecb9536ba4a6433abee18951cc4131f9b123
 =======
 >>>>>>> parent of 3ed77ec... 1
+=======
+  m_SceneLighting: 1
+  lastFramingTime: 2864.4215314845183
+>>>>>>> parent of ad3703f... 0926Commit
+=======
+    y: 92
+    width: 1102
+    height: 554
+  m_SceneLighting: 1
+  lastFramingTime: 5051.440443018333
+>>>>>>> a48b0dba321b52fe2db2222e9223fb0cd7242cd8
+>>>>>>> parent of 3ed77ec... 1
   m_2DMode: 0
   m_isRotationLocked: 0
   m_AudioPlay: 0
   m_Position:
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
     m_Target: {x: -32.425663, y: -38.780342, z: 12.65678}
@@ -375,11 +420,14 @@ MonoBehaviour:
 =======
 >>>>>>> parent of 3ed77ec... 1
 <<<<<<< HEAD
+=======
+>>>>>>> parent of 3ed77ec... 1
     m_Target: {x: -6.804725, y: 2.0489914, z: -33.40943}
     speed: 2
     m_Value: {x: -6.804725, y: 2.0489914, z: -33.40943}
 =======
     m_Target: {x: -4.935893, y: 2.6883378, z: -4.4373884}
+<<<<<<< HEAD
     speed: 2
     m_Value: {x: -4.935893, y: 2.6883378, z: -4.4373884}
 >>>>>>> parent of ad3703f... 0926Commit
@@ -391,6 +439,16 @@ MonoBehaviour:
 <<<<<<< HEAD
 >>>>>>> 26d5ecb9536ba4a6433abee18951cc4131f9b123
 =======
+>>>>>>> parent of 3ed77ec... 1
+=======
+    speed: 2
+    m_Value: {x: -4.935893, y: 2.6883378, z: -4.4373884}
+>>>>>>> parent of ad3703f... 0926Commit
+=======
+    m_Target: {x: 2.318, y: 0.61803293, z: -1.3346813}
+    speed: 2
+    m_Value: {x: 2.318, y: 0.61803293, z: -1.3346813}
+>>>>>>> a48b0dba321b52fe2db2222e9223fb0cd7242cd8
 >>>>>>> parent of 3ed77ec... 1
   m_RenderMode: 0
   m_ValidateTrueMetals: 0
@@ -414,6 +472,7 @@ MonoBehaviour:
       speed: 2
       m_Value: 0
   m_Rotation:
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
     m_Target: {x: -0.44334617, y: 0.13834038, z: -0.069461174, w: -0.8828824}
@@ -447,6 +506,17 @@ MonoBehaviour:
     m_Target: 3.730446
     speed: 2
 >>>>>>> parent of 3ed77ec... 1
+=======
+    m_Target: {x: -0.039177068, y: 0.95827574, z: -0.1613491, w: -0.23267841}
+=======
+    m_Target: {x: 0.11610613, y: -0.772941, z: 0.1481068, w: 0.6059257}
+>>>>>>> a48b0dba321b52fe2db2222e9223fb0cd7242cd8
+    speed: 2
+    m_Value: {x: 0.11610613, y: -0.772941, z: 0.1481068, w: 0.6059257}
+  m_Size:
+    m_Target: 3.730446
+    speed: 2
+>>>>>>> parent of 3ed77ec... 1
 <<<<<<< HEAD
     m_Value: 11.518833
 =======
@@ -462,7 +532,10 @@ MonoBehaviour:
     m_Value: 3.730446
 >>>>>>> a48b0dba321b52fe2db2222e9223fb0cd7242cd8
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 26d5ecb9536ba4a6433abee18951cc4131f9b123
+=======
+>>>>>>> parent of 3ed77ec... 1
 =======
 >>>>>>> parent of 3ed77ec... 1
   m_Ortho:
@@ -471,12 +544,15 @@ MonoBehaviour:
     m_Value: 0
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 26d5ecb9536ba4a6433abee18951cc4131f9b123
 =======
 <<<<<<< HEAD
+>>>>>>> parent of 3ed77ec... 1
+=======
 >>>>>>> parent of 3ed77ec... 1
   m_LastSceneViewRotation: {x: 0, y: 0, z: 0, w: 0}
 =======
@@ -548,10 +624,14 @@ MonoBehaviour:
   vertical: 0
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   controlID: 851
 =======
   controlID: 9291
 >>>>>>> 26d5ecb9536ba4a6433abee18951cc4131f9b123
+=======
+  controlID: 9291
+>>>>>>> parent of 3ed77ec... 1
 =======
   controlID: 9291
 >>>>>>> parent of 3ed77ec... 1
@@ -707,6 +787,7 @@ MonoBehaviour:
     y: 0
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     width: 425
     height: 926
   m_MinSize: {x: 234, y: 492}
@@ -721,6 +802,14 @@ MonoBehaviour:
   vertical: 1
   controlID: 9313
 >>>>>>> 26d5ecb9536ba4a6433abee18951cc4131f9b123
+=======
+    width: 361
+    height: 947
+  m_MinSize: {x: 234, y: 492}
+  m_MaxSize: {x: 10004, y: 14042}
+  vertical: 1
+  controlID: 9313
+>>>>>>> parent of 3ed77ec... 1
 =======
     width: 361
     height: 947
@@ -758,6 +847,7 @@ MonoBehaviour:
     y: 0
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     width: 425
     height: 486
   m_MinSize: {x: 200, y: 200}
@@ -767,6 +857,8 @@ MonoBehaviour:
 =======
 >>>>>>> parent of 3ed77ec... 1
 <<<<<<< HEAD
+=======
+>>>>>>> parent of 3ed77ec... 1
     width: 445
     height: 628
   m_MinSize: {x: 204, y: 221}
@@ -778,7 +870,10 @@ MonoBehaviour:
   m_MaxSize: {x: 4000, y: 4000}
 >>>>>>> a48b0dba321b52fe2db2222e9223fb0cd7242cd8
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 26d5ecb9536ba4a6433abee18951cc4131f9b123
+=======
+>>>>>>> parent of 3ed77ec... 1
 =======
 >>>>>>> parent of 3ed77ec... 1
   m_ActualView: {fileID: 12}
@@ -815,6 +910,7 @@ MonoBehaviour:
   m_DepthBufferBits: 0
   m_Pos:
     serializedVersion: 2
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
     x: 1202
@@ -862,6 +958,23 @@ MonoBehaviour:
     height: 495
   m_TreeViewState:
 >>>>>>> parent of 3ed77ec... 1
+=======
+    x: 910
+    y: 97
+    width: 441
+    height: 607
+  m_TreeViewState:
+    scrollPos: {x: 0, y: 0}
+    m_SelectedIDs: ec2d0000
+    m_LastClickedID: 0
+    m_ExpandedIDs: 123ffeffacc6feffb8d7fefff2e3feff0000000094570000
+=======
+    x: 1134
+    y: 92
+    width: 352
+    height: 495
+  m_TreeViewState:
+>>>>>>> parent of 3ed77ec... 1
     scrollPos: {x: 0, y: 2258}
     m_SelectedIDs: 0679feff
     m_LastClickedID: -100090
@@ -879,7 +992,10 @@ MonoBehaviour:
     m_ExpandedIDs: 100aefff6810efff3a00f0ff7c01f0ff82d1f4ff2090ffff5690ffff2891ffff9c91ffff3cb1ffff1afcffff00000000a65b0000ea5b00000e5c00007e5c0000
 >>>>>>> a48b0dba321b52fe2db2222e9223fb0cd7242cd8
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 26d5ecb9536ba4a6433abee18951cc4131f9b123
+=======
+>>>>>>> parent of 3ed77ec... 1
 =======
 >>>>>>> parent of 3ed77ec... 1
     m_RenameOverlay:
@@ -904,6 +1020,7 @@ MonoBehaviour:
   m_ExpandedScenes: []
 =======
 <<<<<<< HEAD
+<<<<<<< HEAD
   m_ExpandedScenes:
 <<<<<<< HEAD
   - 305
@@ -917,12 +1034,18 @@ MonoBehaviour:
 >>>>>>> 26d5ecb9536ba4a6433abee18951cc4131f9b123
 =======
   m_ExpandedScenes:
+=======
+  m_ExpandedScenes:
+>>>>>>> parent of 3ed77ec... 1
   - Office
 >>>>>>> parent of ad3703f... 0926Commit
 =======
   m_ExpandedScenes:
   - ThirdFloor
 >>>>>>> a48b0dba321b52fe2db2222e9223fb0cd7242cd8
+<<<<<<< HEAD
+>>>>>>> parent of 3ed77ec... 1
+=======
 >>>>>>> parent of 3ed77ec... 1
   m_CurrenRootInstanceID: 0
   m_Locked: 0
@@ -944,6 +1067,7 @@ MonoBehaviour:
     x: 0
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     y: 486
     width: 425
     height: 440
@@ -958,6 +1082,11 @@ MonoBehaviour:
 <<<<<<< HEAD
 >>>>>>> 26d5ecb9536ba4a6433abee18951cc4131f9b123
 =======
+>>>>>>> parent of 3ed77ec... 1
+=======
+    y: 628
+    width: 445
+    height: 314
 >>>>>>> parent of 3ed77ec... 1
   m_MinSize: {x: 234, y: 271}
   m_MaxSize: {x: 10004, y: 10021}
@@ -1003,6 +1132,7 @@ MonoBehaviour:
   m_DepthBufferBits: 0
   m_Pos:
     serializedVersion: 2
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
     x: 1202
@@ -1054,6 +1184,26 @@ MonoBehaviour:
   m_SearchFilter:
     m_NameFilter: 
 >>>>>>> parent of 3ed77ec... 1
+=======
+    x: 910
+    y: 725
+    width: 441
+    height: 293
+=======
+    x: 1134
+    y: 608
+    width: 352
+    height: 410
+>>>>>>> parent of ad3703f... 0926Commit
+=======
+    x: 1106
+    y: 611
+    width: 357
+    height: 407
+>>>>>>> a48b0dba321b52fe2db2222e9223fb0cd7242cd8
+  m_SearchFilter:
+    m_NameFilter: 
+>>>>>>> parent of 3ed77ec... 1
     m_ClassNames: []
     m_AssetLabels: []
     m_AssetBundleNames: []
@@ -1064,6 +1214,7 @@ MonoBehaviour:
     m_ShowAllHits: 0
     m_SearchArea: 0
     m_Folders:
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
     - Assets/Made/Scene
@@ -1085,6 +1236,13 @@ MonoBehaviour:
   m_LastFolders:
   - Assets/Made/Prefabs/Stage
 >>>>>>> parent of 3ed77ec... 1
+=======
+    - Assets/Made/Prefabs/Stage
+  m_ViewMode: 1
+  m_StartGridSize: 16
+  m_LastFolders:
+  - Assets/Made/Prefabs/Stage
+>>>>>>> parent of 3ed77ec... 1
   m_LastFoldersGridSize: 16
   m_LastProjectPath: D:\UnityProjects\Debug_Hansung\Debug_First\Debug_Hansung
   m_IsLocked: 0
@@ -1096,8 +1254,11 @@ MonoBehaviour:
     m_LastClickedID: 0
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     m_ExpandedIDs: 0000000028280000c42a0000562c0000602c0000be2c0000bc36000002370000ee4e0000f04e0000604f0000b8520000665e0000ffffff7f
 =======
+=======
+>>>>>>> parent of 3ed77ec... 1
 =======
 >>>>>>> parent of 3ed77ec... 1
     m_ExpandedIDs: 00000000a6290000322c0000c42d0000ce2d00002a2e00006a380000ae380000cc4c0000ce4c00003a4d00008e50000082510000ffffff7f
@@ -1114,7 +1275,10 @@ MonoBehaviour:
     m_ExpandedIDs: 0000000028280000702a0000022c00006a2c0000b42c000068360000ae360000b4360000da4a00004a4b0000a24e00001055000000ca9a3bffffff7f
 >>>>>>> a48b0dba321b52fe2db2222e9223fb0cd7242cd8
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 26d5ecb9536ba4a6433abee18951cc4131f9b123
+=======
+>>>>>>> parent of 3ed77ec... 1
 =======
 >>>>>>> parent of 3ed77ec... 1
     m_RenameOverlay:
@@ -1146,12 +1310,15 @@ MonoBehaviour:
     m_LastClickedID: 0
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     m_ExpandedIDs: 0000000028280000c42a0000562c0000602c0000be2c0000bc36000002370000ee4e0000f04e0000604f0000b8520000665e0000ffffff7f
 =======
 <<<<<<< HEAD
 =======
 >>>>>>> parent of 3ed77ec... 1
 <<<<<<< HEAD
+=======
+>>>>>>> parent of 3ed77ec... 1
     m_ExpandedIDs: 00000000a6290000322c0000c42d0000ce2d00002a2e00006a380000ae380000cc4c0000ce4c00003a4d00008e50000082510000ffffff7f
 =======
     m_ExpandedIDs: 000000001e28000056280000e82900004e2a0000962a000082310000c2310000c831000090440000fe440000424600009e6b000000ca9a3bffffff7f
@@ -1160,7 +1327,10 @@ MonoBehaviour:
     m_ExpandedIDs: 0000000028280000702a0000022c00006a2c0000b42c000068360000ae360000b4360000da4a00004a4b0000a24e00001055000000ca9a3bffffff7f
 >>>>>>> a48b0dba321b52fe2db2222e9223fb0cd7242cd8
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 26d5ecb9536ba4a6433abee18951cc4131f9b123
+=======
+>>>>>>> parent of 3ed77ec... 1
 =======
 >>>>>>> parent of 3ed77ec... 1
     m_RenameOverlay:
@@ -1189,6 +1359,7 @@ MonoBehaviour:
   m_ListAreaState:
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     m_SelectedInstanceIDs: 86330000
     m_LastClickedInstanceID: 13190
     m_HadKeyboardFocusLastEvent: 1
@@ -1198,6 +1369,8 @@ MonoBehaviour:
 =======
 >>>>>>> parent of 3ed77ec... 1
 <<<<<<< HEAD
+=======
+>>>>>>> parent of 3ed77ec... 1
     m_SelectedInstanceIDs: ec2d0000
     m_LastClickedInstanceID: 11756
     m_HadKeyboardFocusLastEvent: 1
@@ -1215,7 +1388,10 @@ MonoBehaviour:
     m_ExpandedInstanceIDs: 04330000fe2b0000
 >>>>>>> a48b0dba321b52fe2db2222e9223fb0cd7242cd8
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 26d5ecb9536ba4a6433abee18951cc4131f9b123
+=======
+>>>>>>> parent of 3ed77ec... 1
 =======
 >>>>>>> parent of 3ed77ec... 1
     m_RenameOverlay:
@@ -1277,6 +1453,7 @@ MonoBehaviour:
     serializedVersion: 2
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     x: 1617
     y: 0
     width: 287
@@ -1300,6 +1477,13 @@ MonoBehaviour:
 >>>>>>> a48b0dba321b52fe2db2222e9223fb0cd7242cd8
     y: 0
 >>>>>>> parent of 3ed77ec... 1
+=======
+    x: 1353
+=======
+    x: 1465
+>>>>>>> a48b0dba321b52fe2db2222e9223fb0cd7242cd8
+    y: 0
+>>>>>>> parent of 3ed77ec... 1
     width: 455
     height: 947
   m_MinSize: {x: 275, y: 50}
@@ -1315,7 +1499,10 @@ MonoBehaviour:
   m_ActualView: {fileID: 17}
 >>>>>>> parent of ad3703f... 0926Commit
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 26d5ecb9536ba4a6433abee18951cc4131f9b123
+=======
+>>>>>>> parent of 3ed77ec... 1
 =======
 >>>>>>> parent of 3ed77ec... 1
   m_Panes:
@@ -1346,6 +1533,7 @@ MonoBehaviour:
     serializedVersion: 2
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     x: 1627
     y: 105
     width: 285
@@ -1355,6 +1543,8 @@ MonoBehaviour:
 =======
 >>>>>>> parent of 3ed77ec... 1
 <<<<<<< HEAD
+=======
+>>>>>>> parent of 3ed77ec... 1
     x: 1355
     y: 97
     width: 565
@@ -1372,7 +1562,10 @@ MonoBehaviour:
     height: 926
 >>>>>>> a48b0dba321b52fe2db2222e9223fb0cd7242cd8
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 26d5ecb9536ba4a6433abee18951cc4131f9b123
+=======
+>>>>>>> parent of 3ed77ec... 1
 =======
 >>>>>>> parent of 3ed77ec... 1
   m_ScrollPosition: {x: 0, y: 0}
