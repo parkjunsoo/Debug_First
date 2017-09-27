@@ -110,6 +110,7 @@ NavMeshSettings:
   m_NavMeshData: {fileID: 0}
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 --- !u!1 &72116077
 =======
 --- !u!1 &253313190
@@ -117,6 +118,9 @@ NavMeshSettings:
 =======
 --- !u!1 &253313190
 >>>>>>> parent of 3ed77ec... 1
+=======
+--- !u!1 &253313190
+>>>>>>> parent of 3c63208... 0927
 GameObject:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 1716631701215684, guid: aa1711e3264ad504bb9541ecaaa23124,
@@ -148,6 +152,7 @@ MonoBehaviour:
   m_PrefabInternal: {fileID: 0}
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   m_GameObject: {fileID: 72116077}
   m_LocalRotation: {x: -0.5000002, y: 0.49999988, z: 0.49999982, w: 0.5000002}
   m_LocalPosition: {x: -5.6, y: -10.2, z: -6.84}
@@ -161,6 +166,8 @@ MeshRenderer:
 =======
 =======
 >>>>>>> parent of 3ed77ec... 1
+=======
+>>>>>>> parent of 3c63208... 0927
   m_GameObject: {fileID: 253313190}
   m_Enabled: 1
   m_EditorHideFlags: 0
@@ -174,9 +181,12 @@ MeshRenderer:
 --- !u!114 &253313192
 MonoBehaviour:
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> parent of 814d7d3... Merge branch 'master' of https://github.com/parkjunsoo/Debug_First
 =======
 >>>>>>> parent of 3ed77ec... 1
+=======
+>>>>>>> parent of 3c63208... 0927
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 114196343680954278, guid: aa1711e3264ad504bb9541ecaaa23124,
     type: 2}
@@ -222,6 +232,7 @@ AudioSource:
   m_PrefabInternal: {fileID: 0}
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   m_GameObject: {fileID: 73960289}
   m_LocalRotation: {x: 0.000000053385083, y: 0.7071068, z: 0.7071068, w: -0.000000053385083}
   m_LocalPosition: {x: -26.08941, y: 6.730208, z: -7.2}
@@ -234,6 +245,8 @@ AudioSource:
 =======
 =======
 >>>>>>> parent of 3ed77ec... 1
+=======
+>>>>>>> parent of 3c63208... 0927
   m_GameObject: {fileID: 253313190}
   m_Enabled: 1
   serializedVersion: 4
@@ -311,9 +324,12 @@ AudioSource:
     m_RotationOrder: 0
 --- !u!23 &253313196
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> parent of 814d7d3... Merge branch 'master' of https://github.com/parkjunsoo/Debug_First
 =======
 >>>>>>> parent of 3ed77ec... 1
+=======
+>>>>>>> parent of 3c63208... 0927
 MeshRenderer:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 23989970474625836, guid: aa1711e3264ad504bb9541ecaaa23124,
@@ -349,6 +365,9 @@ MeshRenderer:
 --- !u!136 &253313197
 CapsuleCollider:
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> parent of 3c63208... 0927
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 136584586718215076, guid: aa1711e3264ad504bb9541ecaaa23124,
     type: 2}
@@ -380,6 +399,7 @@ Transform:
   m_LocalPosition: {x: -34.277, y: 4.824, z: 5.314}
   m_LocalScale: {x: 0.5, y: 0.5, z: 0.5}
   m_Children: []
+<<<<<<< HEAD
 <<<<<<< HEAD
   m_Father: {fileID: 371929337}
   m_RootOrder: 243
@@ -426,6 +446,42 @@ Prefab:
   m_Mesh: {fileID: 4300434, guid: 9d4545aa3d6aaed468c2b14ced428afb, type: 3}
 --- !u!1 &98845640
 =======
+=======
+  m_Father: {fileID: 0}
+  m_RootOrder: 5
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!84 &494512376
+RenderTexture:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: 
+  m_ImageContentsHash:
+    serializedVersion: 2
+    Hash: 00000000000000000000000000000000
+  m_Width: 597
+  m_Height: 355
+  m_AntiAliasing: 1
+  m_DepthFormat: 1
+  m_ColorFormat: 0
+  m_MipMap: 0
+  m_GenerateMips: 1
+  m_SRGB: 0
+  m_TextureSettings:
+    serializedVersion: 2
+    m_FilterMode: 1
+    m_Aniso: 0
+    m_MipBias: 0
+    m_WrapU: 1
+    m_WrapV: 1
+    m_WrapW: 1
+  m_Dimension: 2
+  m_VolumeDepth: 1
+--- !u!1001 &568871544
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+>>>>>>> parent of 3c63208... 0927
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
@@ -527,7 +583,10 @@ Prefab:
   m_ParentPrefab: {fileID: 100100000, guid: 27a22469e8fc5034786a5cbf50570ca5, type: 2}
   m_IsPrefabParent: 0
 --- !u!1 &670439149
+<<<<<<< HEAD
 >>>>>>> parent of 814d7d3... Merge branch 'master' of https://github.com/parkjunsoo/Debug_First
+=======
+>>>>>>> parent of 3c63208... 0927
 GameObject:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
@@ -548,6 +607,8 @@ GameObject:
   m_IsActive: 1
 --- !u!114 &670439150
 MonoBehaviour:
+<<<<<<< HEAD
+=======
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
@@ -568,6 +629,55 @@ BoxCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
+  m_Size: {x: 33.380695, y: 29.407635, z: 27.92847}
+  m_Center: {x: 23.922007, y: 3.097517, z: 25.808313}
+--- !u!4 &670439152
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 670439149}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -26.51, y: 6.28, z: -24.54}
+  m_LocalScale: {x: 0.5, y: 0.5, z: 0.5}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 6
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!65 &670439153
+BoxCollider:
+>>>>>>> parent of 3c63208... 0927
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 670439149}
+<<<<<<< HEAD
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6b40dacef68899f419657b551f91067d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  a: {fileID: 0}
+--- !u!65 &670439151
+=======
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 22.36649, y: 15.162941, z: 34.98181}
+  m_Center: {x: -20.879686, y: 7.0814714, z: 28.082664}
+--- !u!65 &670439154
+>>>>>>> parent of 3c63208... 0927
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 670439149}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+<<<<<<< HEAD
 =======
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 136584586718215076, guid: aa1711e3264ad504bb9541ecaaa23124,
@@ -862,6 +972,33 @@ MeshRenderer:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
+=======
+  m_Size: {x: 18.446785, y: 30.21143, z: 41.08125}
+  m_Center: {x: -1.1728973, y: 0.4832363, z: 21.662409}
+--- !u!1 &671059077
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 671059081}
+  - component: {fileID: 671059080}
+  - component: {fileID: 671059079}
+  - component: {fileID: 671059078}
+  m_Layer: 0
+  m_Name: Message4
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!23 &671059078
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+>>>>>>> parent of 3c63208... 0927
   m_GameObject: {fileID: 671059077}
   m_Enabled: 1
   m_CastShadows: 1
@@ -889,6 +1026,7 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 --- !u!33 &106366671
@@ -1052,6 +1190,10 @@ BoxCollider:
 --- !u!65 &671059079
 BoxCollider:
 >>>>>>> parent of 3ed77ec... 1
+=======
+--- !u!65 &671059079
+BoxCollider:
+>>>>>>> parent of 3c63208... 0927
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
@@ -1060,6 +1202,7 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
   m_Convex: 1
@@ -1206,6 +1349,11 @@ MeshRenderer:
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!33 &671059080
 >>>>>>> parent of 814d7d3... Merge branch 'master' of https://github.com/parkjunsoo/Debug_First
+=======
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!33 &671059080
+>>>>>>> parent of 3c63208... 0927
 MeshFilter:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
@@ -1222,6 +1370,7 @@ Transform:
   m_LocalPosition: {x: -34.366955, y: 4.4137535, z: 4.6240406}
   m_LocalScale: {x: 0.2783679, y: 0.27836776, z: 0.092789225}
   m_Children: []
+<<<<<<< HEAD
 =======
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
@@ -1243,12 +1392,15 @@ Transform:
   m_LocalScale: {x: 0.2783679, y: 0.27836776, z: 0.092789225}
   m_Children: []
 >>>>>>> parent of 3ed77ec... 1
+=======
+>>>>>>> parent of 3c63208... 0927
   m_Father: {fileID: 0}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 90, y: 0, z: 0}
 --- !u!1001 &764302096
 Prefab:
   m_ObjectHideFlags: 0
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
   m_PrefabParentObject: {fileID: 100290, guid: 9d4545aa3d6aaed468c2b14ced428afb, type: 3}
@@ -1471,6 +1623,8 @@ BoxCollider:
 >>>>>>> parent of 814d7d3... Merge branch 'master' of https://github.com/parkjunsoo/Debug_First
 =======
 >>>>>>> parent of 3ed77ec... 1
+=======
+>>>>>>> parent of 3c63208... 0927
   serializedVersion: 2
   m_Modification:
     m_TransformParent: {fileID: 0}
@@ -1502,6 +1656,7 @@ BoxCollider:
     - target: {fileID: 4455014712255978, guid: 560ba12ae0923f746ab310aadcb8e217, type: 2}
       propertyPath: m_LocalRotation.w
       value: 1
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
       inSlope: 0
@@ -9650,6 +9805,8 @@ GameObject:
   m_Layer: 0
   m_Name: Box018 (1)
 =======
+=======
+>>>>>>> parent of 3c63208... 0927
       objectReference: {fileID: 0}
     - target: {fileID: 4455014712255978, guid: 560ba12ae0923f746ab310aadcb8e217, type: 2}
       propertyPath: m_RootOrder
@@ -10180,6 +10337,7 @@ GameObject:
   m_IsPrefabParent: 0
 --- !u!1001 &985696619
 Prefab:
+<<<<<<< HEAD
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
@@ -10353,6 +10511,133 @@ MeshCollider:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1959627124}
 =======
+=======
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 4332268204673762, guid: a9f9be50e68b8d140a54a02c5a61672e, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: -15.7
+      objectReference: {fileID: 0}
+    - target: {fileID: 4332268204673762, guid: a9f9be50e68b8d140a54a02c5a61672e, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: 5.5635
+      objectReference: {fileID: 0}
+    - target: {fileID: 4332268204673762, guid: a9f9be50e68b8d140a54a02c5a61672e, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: -33.9
+      objectReference: {fileID: 0}
+    - target: {fileID: 4332268204673762, guid: a9f9be50e68b8d140a54a02c5a61672e, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4332268204673762, guid: a9f9be50e68b8d140a54a02c5a61672e, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: -0.64008915
+      objectReference: {fileID: 0}
+    - target: {fileID: 4332268204673762, guid: a9f9be50e68b8d140a54a02c5a61672e, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4332268204673762, guid: a9f9be50e68b8d140a54a02c5a61672e, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: 0.7683007
+      objectReference: {fileID: 0}
+    - target: {fileID: 4332268204673762, guid: a9f9be50e68b8d140a54a02c5a61672e, type: 2}
+      propertyPath: m_RootOrder
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 20013893435616880, guid: a9f9be50e68b8d140a54a02c5a61672e,
+        type: 2}
+      propertyPath: m_TargetTexture
+      value: 
+      objectReference: {fileID: 494512376}
+    - target: {fileID: 4236018243702818, guid: a9f9be50e68b8d140a54a02c5a61672e, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: -0.000000059604645
+      objectReference: {fileID: 0}
+    - target: {fileID: 1268506034670566, guid: a9f9be50e68b8d140a54a02c5a61672e, type: 2}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4332268204673762, guid: a9f9be50e68b8d140a54a02c5a61672e, type: 2}
+      propertyPath: m_LocalScale.y
+      value: 2.436462
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: a9f9be50e68b8d140a54a02c5a61672e, type: 2}
+  m_IsPrefabParent: 0
+--- !u!1 &1168949190
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 1840377699595198, guid: 281b1819db817424d8453eeaa63a6e50,
+    type: 2}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 1168949191}
+  - component: {fileID: 1168949194}
+  - component: {fileID: 1168949193}
+  - component: {fileID: 1168949192}
+  - component: {fileID: 1168949195}
+  - component: {fileID: 1168949196}
+  m_Layer: 0
+  m_Name: plusNotebook
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1168949191
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 4632975041190110, guid: 281b1819db817424d8453eeaa63a6e50,
+    type: 2}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1168949190}
+  m_LocalRotation: {x: 0.7071068, y: -0, z: -0, w: -0.7071068}
+  m_LocalPosition: {x: 0.49699974, y: 5.85, z: 1.16}
+  m_LocalScale: {x: 1.7295065, y: 0.06933147, z: 6.228827}
+  m_Children: []
+  m_Father: {fileID: 2073688598}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 270, y: 0, z: 0}
+--- !u!23 &1168949192
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 23176763807118266, guid: 281b1819db817424d8453eeaa63a6e50,
+    type: 2}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1168949190}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_Materials:
+  - {fileID: 2100000, guid: 82ad4c9ee43b58549ac4d1fa154e9527, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 1
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+>>>>>>> parent of 3c63208... 0927
 --- !u!65 &1168949193
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -10360,11 +10645,15 @@ BoxCollider:
     type: 2}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1168949190}
+<<<<<<< HEAD
 >>>>>>> parent of 3ed77ec... 1
+=======
+>>>>>>> parent of 3c63208... 0927
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
+<<<<<<< HEAD
 <<<<<<< HEAD
   m_Convex: 0
   m_InflateMesh: 0
@@ -10633,6 +10922,21 @@ MeshFilter:
 MonoBehaviour:
   m_ObjectHideFlags: 0
 >>>>>>> parent of 3ed77ec... 1
+=======
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!33 &1168949194
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 33082515952000022, guid: 281b1819db817424d8453eeaa63a6e50,
+    type: 2}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1168949190}
+  m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1168949195
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+>>>>>>> parent of 3c63208... 0927
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1168949190}
@@ -10814,6 +11118,7 @@ Transform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 --- !u!1 &2108155740
 GameObject:
   m_ObjectHideFlags: 0
@@ -10975,6 +11280,8 @@ MeshCollider:
 >>>>>>> parent of 814d7d3... Merge branch 'master' of https://github.com/parkjunsoo/Debug_First
 =======
 >>>>>>> parent of 3ed77ec... 1
+=======
+>>>>>>> parent of 3c63208... 0927
 --- !u!1 &2126407362
 GameObject:
   m_ObjectHideFlags: 0
@@ -11054,6 +11361,7 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 50, y: -30, z: 0}
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 --- !u!1 &2128612864
@@ -11232,3 +11540,5 @@ MeshCollider:
 >>>>>>> parent of 814d7d3... Merge branch 'master' of https://github.com/parkjunsoo/Debug_First
 =======
 >>>>>>> parent of 3ed77ec... 1
+=======
+>>>>>>> parent of 3c63208... 0927
