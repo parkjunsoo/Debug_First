@@ -1,4 +1,8 @@
 sceneSetups:
+<<<<<<< HEAD
 - path: Assets/Made/Scene/305.unity
+=======
+- path: Assets/Made/Scene/FirstFloor.unity
+>>>>>>> parent of 2b1f215... trial
   isLoaded: 1
   isActive: 1
