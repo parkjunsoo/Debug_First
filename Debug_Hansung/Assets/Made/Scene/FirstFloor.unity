@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.37311953, g: 0.38074014, b: 0.3587274, a: 1}
+  m_IndirectSpecularColor: {r: 0.37311992, g: 0.38074034, b: 0.35872713, a: 1}
 --- !u!157 &3
 LightmapSettings:
   m_ObjectHideFlags: 0
@@ -230,7 +230,7 @@ Prefab:
         type: 2}
       propertyPath: m_TargetTexture
       value: 
-      objectReference: {fileID: 1564320873}
+      objectReference: {fileID: 1340232618}
     - target: {fileID: 114088563219067418, guid: a9f9be50e68b8d140a54a02c5a61672e,
         type: 2}
       propertyPath: outlineShaderMaterial
@@ -1195,6 +1195,33 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!84 &981298817
+RenderTexture:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: 
+  m_ImageContentsHash:
+    serializedVersion: 2
+    Hash: 00000000000000000000000000000000
+  m_Width: 710
+  m_Height: 346
+  m_AntiAliasing: 1
+  m_DepthFormat: 1
+  m_ColorFormat: 0
+  m_MipMap: 0
+  m_GenerateMips: 1
+  m_SRGB: 0
+  m_TextureSettings:
+    serializedVersion: 2
+    m_FilterMode: 1
+    m_Aniso: 1
+    m_MipBias: 0
+    m_WrapU: 1
+    m_WrapV: 1
+    m_WrapW: 1
+  m_Dimension: 2
+  m_VolumeDepth: 1
 --- !u!84 &981302298
 RenderTexture:
   m_ObjectHideFlags: 0
@@ -1395,7 +1422,7 @@ Transform:
   m_PrefabParentObject: {fileID: 4917677191375926, guid: b835499030c7d4842b4adf20af9e3972,
     type: 2}
   m_PrefabInternal: {fileID: 789060713}
---- !u!84 &1338916916
+--- !u!84 &1340232618
 RenderTexture:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
@@ -1404,8 +1431,8 @@ RenderTexture:
   m_ImageContentsHash:
     serializedVersion: 2
     Hash: 00000000000000000000000000000000
-  m_Width: 788
-  m_Height: 364
+  m_Width: 710
+  m_Height: 346
   m_AntiAliasing: 1
   m_DepthFormat: 1
   m_ColorFormat: 0
@@ -1415,7 +1442,7 @@ RenderTexture:
   m_TextureSettings:
     serializedVersion: 2
     m_FilterMode: 1
-    m_Aniso: 1
+    m_Aniso: 0
     m_MipBias: 0
     m_WrapU: 1
     m_WrapV: 1
@@ -1594,6 +1621,26 @@ Prefab:
       propertyPath: m_Name
       value: ToiletDoor
       objectReference: {fileID: 0}
+    - target: {fileID: 2300054, guid: d45c320a2167d474c8ea7df7cee2b36a, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 7939cb40bf8aa344680670bbc6856083, type: 2}
+    - target: {fileID: 2300032, guid: d45c320a2167d474c8ea7df7cee2b36a, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 0cef49d4ce2fd8440900c535601905e9, type: 2}
+    - target: {fileID: 2300034, guid: d45c320a2167d474c8ea7df7cee2b36a, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 52414090c330afb4ca233d6fd6e85149, type: 2}
+    - target: {fileID: 2300036, guid: d45c320a2167d474c8ea7df7cee2b36a, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 7939cb40bf8aa344680670bbc6856083, type: 2}
+    - target: {fileID: 2300030, guid: d45c320a2167d474c8ea7df7cee2b36a, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 0cef49d4ce2fd8440900c535601905e9, type: 2}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: d45c320a2167d474c8ea7df7cee2b36a, type: 3}
   m_IsPrefabParent: 0
@@ -1917,33 +1964,6 @@ Prefab:
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: e089a0277ddef5f4cae71509ed44de0e, type: 2}
   m_IsPrefabParent: 0
---- !u!84 &1564320873
-RenderTexture:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_Name: 
-  m_ImageContentsHash:
-    serializedVersion: 2
-    Hash: 00000000000000000000000000000000
-  m_Width: 788
-  m_Height: 364
-  m_AntiAliasing: 1
-  m_DepthFormat: 1
-  m_ColorFormat: 0
-  m_MipMap: 0
-  m_GenerateMips: 1
-  m_SRGB: 0
-  m_TextureSettings:
-    serializedVersion: 2
-    m_FilterMode: 1
-    m_Aniso: 0
-    m_MipBias: 0
-    m_WrapU: 1
-    m_WrapV: 1
-    m_WrapW: 1
-  m_Dimension: 2
-  m_VolumeDepth: 1
 --- !u!1001 &1590338984
 Prefab:
   m_ObjectHideFlags: 0
