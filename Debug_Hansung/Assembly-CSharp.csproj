@@ -233,6 +233,7 @@
      <Compile Include="Assets\Made\Script\Objects\BugDoor.cs" />
      <Compile Include="Assets\Made\Script\Objects\DoorLock.cs" />
      <Compile Include="Assets\Made\Script\Objects\FirstMessage.cs" />
+     <Compile Include="Assets\Made\Script\Objects\FourthMessage.cs" />
      <Compile Include="Assets\Made\Script\Objects\Item.cs" />
      <Compile Include="Assets\Made\Script\Objects\Key.cs" />
      <Compile Include="Assets\Made\Script\Objects\Knife.cs" />
