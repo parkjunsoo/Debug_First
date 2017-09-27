@@ -1,4 +1,4 @@
 sceneSetups:
-- path: Assets/Made/Scene/Toilet.unity
+- path: Assets/Made/Scene/305.unity
   isLoaded: 1
   isActive: 1
