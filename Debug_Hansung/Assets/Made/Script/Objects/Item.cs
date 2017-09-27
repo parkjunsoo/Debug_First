@@ -21,7 +21,8 @@ public abstract class Item : MonoBehaviour {
 
     private void OnTriggerEnter(Collider other)
     {
-        GetComponent<cakeslice.Outline>().enabled = true;
+        if(other.name.Contains("Player"))
+            GetComponent<cakeslice.Outline>().enabled = true;
     }
 
     private void OnTriggerStay(Collider other)
